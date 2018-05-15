@@ -1,0 +1,40 @@
+
+{{#main-carousel}}
+<section class="main-carousel">
+  <div class="container">
+    <div class="row no-gutters">
+      <div class="col-12">
+        <!-- Carousel -->
+        <div data-js="main-carousel">
+          {{#slides}}
+          <!-- Slide -->
+          <div class="main-carousel__slide">
+            <div class="slide-outer" style="background-image: url(assets/img/{{slide-name}}.jpg);">
+              <div class="slide-inner">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-lg-10 ">
+                    <h2>{{slide-title}}</h2>
+                    <a class="btn btn_slide-more" href="#">{{slide-btn-text}}</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /Slide -->
+          {{/slides}}
+        </div>
+        <!-- /Carousel -->
+        <!-- Dots -->
+        <div class="dots position-absolute w-100">
+          <div class="row">
+            <div class="col-12 col-lg-6 text-center">
+              <div class="dots-place"></div>
+            </div>
+          </div>
+        </div>
+        <!-- /Dots -->
+      </div>
+    </div>
+  </div>
+</section>
+{{/main-carousel}}

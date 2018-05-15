@@ -1,4 +1,9 @@
 {{#foot}}
+<footer class="footer">
+  <div class="container">
+    <p>2018 All Rights reserved</p>
+  </div>
+</footer>
   {{#vendor-scripts}}
     {{#jquery}}
       <!-- Jquery -->
@@ -15,6 +20,86 @@
     {{/vendor-scripts}}
       <!-- Custom script -->
       <script src="assets/js/script.min.js"></script>
+      <!-- Sliders -->
+      <script>
+        var mainCarousel = $('*[data-js="main-carousel"]').length;
+        var teacherCarousel = $('*[data-js="teachers-carousel"]').length;
+        var feedCarousel = $('*[data-js="feed-carousel"]').length;
+        // Main carousel
+        if(mainCarousel > 0) {
+          $('*[data-js="main-carousel"]').slick({
+            slidesToShow: 1,
+            slideToScroll: 1,
+            autoplay: false,
+            autoplaySpeed: 4000,
+            infinite: true,
+            arrows: false,
+            dots: true,
+            appendDots: $('.main-carousel .dots-place'),
+            responsive: [
+              {
+                breakpoint: 480,
+                settings: {
+                  arrows: false,
+                  dots: false,
+                  slidesToShow: 1
+                }
+              }
+            ]
+
+          });
+        }
+        
+        // teacher carousel        
+        if(teacherCarousel > 0) {
+            $('*[data-js="teachers-carousel"]').slick({ 
+              slidesToShow: 3,
+              slideToScroll: 1,
+              autoplay: false,
+              autoplaySpeed: 4000,
+              infinite: true,
+              arrows: true,
+              prevArrow: "<a href=\"#\" class=\"slider-arr slider-arr_prev\"></a>",
+              nextArrow: "<a href=\"#\" class=\"slider-arr slider-arr_next\"></a>",
+              responsive: [
+              {
+                breakpoint: 768,
+                  settings: {
+                  dots: false,
+                  slidesToShow: 1
+                }
+              }
+            ]
+            });
+          }
+           // feed carousel        
+        if(feedCarousel > 0) {
+            $('*[data-js="feed-carousel"]').slick({ 
+              slidesToShow: 2,
+              slideToScroll: 1,
+              autoplay: false,
+              autoplaySpeed: 4000,
+              infinite: true,
+              arrows: true,
+              dots: true,
+              appendDots: $('.feed-carousel-ctrl .dots-place'),
+              prevArrow: "<a href=\"#\" class=\"slider-arr slider-arr_prev\"></a>",
+              nextArrow: "<a href=\"#\" class=\"slider-arr slider-arr_next\"></a>",
+              responsive: [
+              {
+                breakpoint: 768,
+                settings: {
+                  dots: false,
+                  slidesToShow: 1
+                }
+              }
+            ]
+            });
+          }
+      </script>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxkUUlSbRNNNbTvIKVa1tLmbhQfrgq45g&callback=initMap">
+      </script>
     </body>
   </html>
 {{/foot}}
