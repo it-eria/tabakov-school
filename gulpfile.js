@@ -140,7 +140,7 @@ gulp.task('watch', function() {
 // Build Task
 gulp.task('build', gulp.series(
       'clear-build',
-      gulp.parallel('mustache-to-html','scss-to-css','js-to-build','images-to-build', 'fonts-to-build')
+      gulp.parallel('vendors-to-build', 'mustache-to-html','scss-to-css','js-to-build','images-to-build', 'fonts-to-build')
 ));
   
 // Dev Task
