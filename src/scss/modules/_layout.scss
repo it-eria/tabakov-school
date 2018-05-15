@@ -239,6 +239,56 @@
   }
 }
 /* --------------------------------------------------------------------------------------- */
+/* ---------------------------------------- Schools --------------------------------------- */
+.school-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3rem 2rem;
+  transition: all .3s ease-in-out;
+  background-color: $color-3;
+  border-radius: 10px;
+  height: 100%;
+  .school-title {
+    text-align: center;
+    display: block;
+    max-width: 275px;
+    * {
+      font-family: $font-4;
+      color: $color-1;
+      transition: all .3s ease-in-out;
+    }
+  }
+  .icons-area {
+    .icon {
+      color: $color-2;
+      text-shadow: 2px 2px 5px rgba(0,0,0,.5);
+      font-size: 9.5rem; 
+      transition: all .3s ease-in-out;
+    }
+  }
+  &_3 {
+    .icons-area {
+      .icon {
+        font-size: 7.5rem; 
+      }
+    } 
+  }
+  &:hover {
+    background-color: $color-2;
+    .school-title {
+      * {
+        color: $color-3;
+      }
+    }
+    .icons-area {
+      .icon {
+        color: $color-3;
+      }
+    }
+  }
+}
+/* ---------------------------------------------------------------------------------------- */
 /* ---------------------------------------- Teacher ---------------------------------------- */
 .teachers-carousel {
   .container {
