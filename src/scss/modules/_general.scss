@@ -20,6 +20,32 @@ body, html {
   background-color: $color-3;
   box-shadow: 0px 12px 63.99px 17.01px rgba(0, 0, 0, 0.13);  
 }
+.section-title {
+  .txt-shadow {
+    display: inline-block;
+    position: relative;
+    &::before {
+      content: attr(data-parent);
+      display: block;
+      font-size: 4rem;
+      font-family: $font-3;
+      position: absolute;
+      z-index: 100;
+      top: -75%;
+      left: 50%;
+      width: 100%;
+      transform: translate(-75%, 0);
+      white-space: nowrap;
+      opacity: .05;
+      letter-spacing: 0.5rem;
+      text-align: center;
+    }
+  }
+  h2 {
+    position: relative;
+    z-index: 200;  
+  }
+}
 
 section {
   overflow: hidden;
@@ -41,7 +67,8 @@ a {
   margin-bottom: 0;
 }
 
-.dots-place {
+.dots-place, .dots-place_m {
+
   .slick-dots {
     position: relative;
     bottom: 0;
@@ -97,6 +124,11 @@ a {
     right: -55px;
   }
 }
+.gallery-carousel {
+  .slider-arr {
+    top: 50%;
+  }
+}
 
 @media screen and (max-width: 480px) {
   .slider-arr {
@@ -118,11 +150,13 @@ a {
       transform: scale(.9);
       left: -10px;
       z-index: 9999;
+      top:50%;
     }
     &_next {
       transform: scale(.9);
       right: -10px;
       z-index: 9999;
+      top:50%;
     }
   }
 }
@@ -141,9 +175,54 @@ p {
   outline: none;
 }
 
+.btn {
+  &_slide-more {
+    display: inline-block;
+    padding: 8px 38px;
+    border: 3px solid $color-2;
+    border-radius: 60px 60px;
+    color: #000000;
+    font-family: $font-1;
+    font-size: 16px;
+    transition: all .3s ease-in-out;
+    &:hover {
+      background-color: $color-2;
+      color: $color-3;
+    }
+  }
+}
+
 /* ----- Container ----- */
 @media screen and (min-width: 1450px) {
   .container {
     max-width: 1420px;
+  }
+}
+
+/* ----------- Icons ------------------ */
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  &-sort {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    overflow: hidden;
+    top: 4px;
+    margin-left: 25px;
+    &:after {
+      content: '';
+      display: block;
+      width: 90%;
+      height: 90%;
+      background-color: #fff;
+      position: absolute;
+      top: -50%;
+      left: 5%;
+      box-shadow: 2px 1px 5px rgba(0,0,0,0.5);
+      transform-origin: 50% 50%;
+      transform: rotate(45deg);
+    }
   }
 }

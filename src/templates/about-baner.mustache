@@ -7,13 +7,18 @@
         <div data-js="main-carousel">
           {{#slides}}
           <!-- Slide -->
-          <div class="main-carousel__slide main-carousel__slide_one">
+          <div class="main-carousel__slide main-carousel__slide_one main-carousel__slide_one__white-text">
             <div class="slide-outer" style="background-image: url(assets/img/{{slide-name}}.jpg);">
               <div class="slide-inner">
                 <div class="row justify-content-center">
                   <div class="col-12 col-lg-10">
-                    <h2>{{slide-title}}</h2>     
-                    <a class="btn btn_slide-more" href="#">{{slide-btn-text}}</a>
+                    <div class="main-carousel__slide__title-wrapper">
+                      <h2>{{slide-title}}</h2>
+                      <span>{{slide-description}}</span>
+                    </div>
+                    <div class="w-100">
+                      <a  class="btn btn_slide-more bg-color" href="#">{{slide-btn-text}}</a>
+                  </div>
                   </div>
                 </div>
               </div>

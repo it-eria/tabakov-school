@@ -1,9 +1,9 @@
 {
- "home": {
-   "head": {
-     "title": "Home"
-   },
-   "header": {
+  "home": {
+    "head": {
+      "title": "Home"
+    },
+    "header": {
     "nav-items": [
       {
         "current": true,
@@ -25,8 +25,8 @@
         "nav-item-text": "Контакти"
       }
     ]
-   },
-   "main-carousel": {
+    },
+    "main-carousel": {
     "slides": [
       {
         "slide-name": "slide-1",
@@ -49,72 +49,435 @@
         "slide-btn-text": "Записатись на заняття"
       }
     ]
-   },
-   "about": true,
-   "teachers-carousel": {
+    },
+  "about": {
+    "about-title": "Про Total Art School",
+    "data-about-title": "Total Art School",
+    "slide-btn-text": "Дізнатись більше",
+    "text-about-1": "Креативна школа «Total Art» заснована Павлом Табаковим, професійним вокалістом, композитором і аранжувальником, який має велику любов до музики і театру! За його плечима  величезний досвід роботи на сцені, а також викладацької діяльності і роботи з дітьми.",
+    "text-about-2": "Школа створена для дітей і молоді, яка хоче розвиватися творчо і креативно у напрямках вокалу, хореографії і музичного театру.",
+    "image-name": "сhildren.jpg"
+  },
+  "teachers-carousel": {
+    "data-about-title": "Викладачі",
+    "about-title":"Викладачі",
     "slides": [
-     {
-       "slide-name": "teacher-1",
-       "slide-title": "Bria Blessing",
-       "slide-description": "Викладач Волкалу"
-     },
-     {
-       "slide-name": "teacher-2",
-       "slide-title": "Павло Табаков",
-       "slide-description": "Засновник та творчий директор"
-     },
-     {
-       "slide-name": "teacher-3",
-       "slide-title": "Уляна Фарина",
-       "slide-description": "Викладач Волкалу"
-     },
-     {
-       "slide-name": "teacher-1",
-       "slide-title": "Bria Blessing",
-       "slide-description": "Викладач Волкалу"
-     },
-     {
-       "slide-name": "teacher-2",
-       "slide-title": "Павло Табаков",
-       "slide-description": "Викладач Волкалу"
-     },
-     {
-       "slide-name": "teacher-3",
-       "slide-title": "Уляна Фарина",
-       "slide-description": "Викладач Волкалу"
-     }
-   ]
+      {
+        "slide-name": "teacher-1",
+        "slide-title": "Bria Blessing",
+        "slide-description": "Викладач Волкалу"
+      },
+      {
+        "slide-name": "teacher-2",
+        "slide-title": "Павло Табаков",
+        "slide-description": "Засновник та творчий директор"
+      },
+      {
+        "slide-name": "teacher-3",
+        "slide-title": "Уляна Фарина",
+        "slide-description": "Викладач Волкалу"
+      },
+      {
+        "slide-name": "teacher-1",
+        "slide-title": "Bria Blessing",
+        "slide-description": "Викладач Волкалу"
+      },
+      {
+        "slide-name": "teacher-2",
+        "slide-title": "Павло Табаков",
+        "slide-description": "Викладач Волкалу"
+      },
+      {
+        "slide-name": "teacher-3",
+        "slide-title": "Уляна Фарина",
+        "slide-description": "Викладач Волкалу"
+      }
+    ]
   },
   "feed-carousel": {
+    "data-about-title": "Новини",
+    "about-title":"Новини",
     "slides": [
-     {
-       "slide-name": "feed-1",
-       "slide-title": "Українські фестивалі-2018,  які не можна пропустити",
-       "slide-description": "Весна – час складати плани на літо! А яке ж літо без хоча б кількох гарячих музичних фестивалів? На щастя, вітчизняні фести не дуже поступаються закордонним. Весна – час складати плани на літо..."
-     },
-     {
-       "slide-name": "feed-2",
-       "slide-title": "Українські фестивалі-2018,  які не можна пропустити",
-       "slide-description": "Весна – час складати плани на літо! А яке ж літо без хоча б кількох гарячих музичних фестивалів? На щастя, вітчизняні фести не дуже поступаються закордонним. Весна – час складати плани на літо..."
-     },
-     {
-       "slide-name": "feed-1",
-       "slide-title": "Українські фестивалі-2018,  які не можна пропустити",
-       "slide-description": "Весна – час складати плани на літо! А яке ж літо без хоча б кількох гарячих музичних фестивалів? На щастя, вітчизняні фести не дуже поступаються закордонним. Весна – час складати плани на літо..."
-     },
-     {
-       "slide-name": "feed-2",
-       "slide-title": "Українські фестивалі-2018,  які не можна пропустити",
-       "slide-description": "Весна – час складати плани на літо! А яке ж літо без хоча б кількох гарячих музичних фестивалів? На щастя, вітчизняні фести не дуже поступаються закордонним. Весна – час складати плани на літо..."
-     } 
-   ]
+      {
+        "slide-name": "feed-1",
+        "slide-title": "Українські фестивалі-2018,  які не можна пропустити",
+        "slide-description": "Весна – час складати плани на літо! А яке ж літо без хоча б кількох гарячих музичних фестивалів? На щастя, вітчизняні фести не дуже поступаються закордонним. Весна – час складати плани на літо..."
+      },
+      {
+        "slide-name": "feed-2",
+        "slide-title": "Українські фестивалі-2018,  які не можна пропустити",
+        "slide-description": "Весна – час складати плани на літо! А яке ж літо без хоча б кількох гарячих музичних фестивалів? На щастя, вітчизняні фести не дуже поступаються закордонним. Весна – час складати плани на літо..."
+      },
+      {
+        "slide-name": "feed-1",
+        "slide-title": "Українські фестивалі-2018,  які не можна пропустити",
+        "slide-description": "Весна – час складати плани на літо! А яке ж літо без хоча б кількох гарячих музичних фестивалів? На щастя, вітчизняні фести не дуже поступаються закордонним. Весна – час складати плани на літо..."
+      },
+      {
+        "slide-name": "feed-2",
+        "slide-title": "Українські фестивалі-2018,  які не можна пропустити",
+        "slide-description": "Весна – час складати плани на літо! А яке ж літо без хоча б кількох гарячих музичних фестивалів? На щастя, вітчизняні фести не дуже поступаються закордонним. Весна – час складати плани на літо..."
+      } 
+    ]
   },
-   "foot": {
-     "vendor-scripts": {
-       "jquery": true,
-       "slick-slider": true,
-       "aos": false
-     }
-   }
- }   
+  "contacts": {
+    "about-title":"Контакти"
+  },
+  "foot": {
+    "vendor-scripts": {
+      "jquery": true,
+      "slick-slider": true,
+      "aos": false
+    }
+  }
+  },
+  "vocal": {
+  "head": {
+    "title": "Vocal"
+  },
+  "header": {
+    "nav-items": [
+      {
+        "nav-item-text": "Головна"
+      },
+      {
+        "nav-item-text": "Про школу"
+      },
+      {
+      "current": true,
+        "nav-item-text": "Послуги"
+      },
+      {
+        "nav-item-text": "Педагоги"
+      },
+      {
+        "nav-item-text": "Новини"
+      },
+      {
+        "nav-item-text": "Контакти"
+      }
+    ]
+  },
+  "main-carousel": {
+    "slides": [
+      {
+        "slide-description": "Total art school",
+        "slide-name": "vocal-baner",
+        "slide-title": "Школа вокалу",
+        "slide-btn-text": "Записатись на заняття"
+      }
+    ]
+  },
+  "about": {
+    "about-title": "Навчання у нашій школі",
+    "data-about-title": "Школа вокалу",
+    "slide-btn-text": "Записатись на заняття",
+    "text-about-1": "Це можливість відкрити свої таланти і здібності, розвиваючи їх з професійними викладачами.Які підкажуть і знайдуть індивідуальне вирішення проблематичних питань кожного вокаліста.",
+    "text-about-2": "Якщо ви стидаєтесь виступати на публіку, боїтесь сцени, хочете навчитись роботі з мікрофоном, або підготуватися на конкурс чи фестиваль у всьому вам допоможуть професіонали нашої школи!",
+    "image-name": "vocal-about-img.jpg"
+  },
+  "teachers-carousel": {
+    "data-about-title": "Викладачі",
+    "about-title":"Викладачі",
+    "slides": [
+      {
+        "slide-name": "teacher-1",
+        "slide-title": "Bria Blessing",
+        "slide-description": "Викладач Волкалу"
+      },
+      {
+        "slide-name": "teacher-2",
+        "slide-title": "Павло Табаков",
+        "slide-description": "Засновник та творчий директор"
+      },
+      {
+        "slide-name": "teacher-3",
+        "slide-title": "Уляна Фарина",
+        "slide-description": "Викладач Волкалу"
+      },
+      {
+        "slide-name": "teacher-1",
+        "slide-title": "Bria Blessing",
+        "slide-description": "Викладач Волкалу"
+      },
+      {
+        "slide-name": "teacher-2",
+        "slide-title": "Павло Табаков",
+        "slide-description": "Викладач Волкалу"
+      },
+      {
+        "slide-name": "teacher-3",
+        "slide-title": "Уляна Фарина",
+        "slide-description": "Викладач Волкалу"
+      }
+    ]
+  },
+  "gallery-carousel": {
+    "about-title": "Галерея",
+    "data-about-title": "Галерея",
+    "slides": [
+      {
+        "slide-name-1": "gallery-item-1",
+        "slide-name-2": "gallery-item-2",
+        "slide-name-3": "gallery-item-3",
+        "slide-name-4": "gallery-item-4",
+        "slide-name-5": "gallery-item-5",
+        "slide-name-6": "gallery-item-6"
+      },
+      {
+        "slide-name-1": "gallery-item-1",
+        "slide-name-2": "gallery-item-2",
+        "slide-name-3": "gallery-item-3",
+        "slide-name-4": "gallery-item-4",
+        "slide-name-5": "gallery-item-5",
+        "slide-name-6": "gallery-item-6"
+      },
+      {
+        "slide-name-1": "gallery-item-1",
+        "slide-name-2": "gallery-item-2",
+        "slide-name-3": "gallery-item-3",
+        "slide-name-4": "gallery-item-4",
+        "slide-name-5": "gallery-item-5",
+        "slide-name-6": "gallery-item-6"
+      }
+    ],
+    "slides-min": [
+    {
+      "slide-name": "gallery-item-1"
+    },
+    {
+      "slide-name": "gallery-item-2"
+    },
+    {
+      "slide-name": "gallery-item-3"
+    },
+    {
+      "slide-name": "gallery-item-4"
+    },
+    {
+      "slide-name": "gallery-item-5"
+    },
+    {
+      "slide-name": "gallery-item-6"
+    }
+    ]
+  },
+  "about-table": {
+    "about-title": "Розклад занять",
+    "data-about-title": "Розклад занять",
+    "about":{
+      "slide-btn-text":"Записатись на заняття"
+    }  
+  },
+  "feed-carousel": {
+    "data-about-title": "Новини",
+    "about-title":"Новини",
+    "slides": [
+      {
+        "slide-name": "feed-1",
+        "slide-title": "Українські фестивалі-2018,  які не можна пропустити",
+        "slide-description": "Весна – час складати плани на літо! А яке ж літо без хоча б кількох гарячих музичних фестивалів? На щастя, вітчизняні фести не дуже поступаються закордонним. Весна – час складати плани на літо..."
+      },
+      {
+        "slide-name": "feed-2",
+        "slide-title": "Українські фестивалі-2018,  які не можна пропустити",
+        "slide-description": "Весна – час складати плани на літо! А яке ж літо без хоча б кількох гарячих музичних фестивалів? На щастя, вітчизняні фести не дуже поступаються закордонним. Весна – час складати плани на літо..."
+      },
+      {
+        "slide-name": "feed-1",
+        "slide-title": "Українські фестивалі-2018,  які не можна пропустити",
+        "slide-description": "Весна – час складати плани на літо! А яке ж літо без хоча б кількох гарячих музичних фестивалів? На щастя, вітчизняні фести не дуже поступаються закордонним. Весна – час складати плани на літо..."
+      },
+      {
+        "slide-name": "feed-2",
+        "slide-title": "Українські фестивалі-2018,  які не можна пропустити",
+        "slide-description": "Весна – час складати плани на літо! А яке ж літо без хоча б кількох гарячих музичних фестивалів? На щастя, вітчизняні фести не дуже поступаються закордонним. Весна – час складати плани на літо..."
+      } 
+    ]
+  },
+  "contacts": {
+    "about-title":"Контакти"
+  },
+  "foot": {
+    "vendor-scripts": {
+      "jquery": true,
+      "slick-slider": true,
+      "aos": false,
+      "sort-table": true
+    }
+  } 
+  },
+  "about-school": {
+    "head": {
+      "title": "About"
+    },
+    "header": {
+    "nav-items": [
+      {
+        "nav-item-text": "Головна"
+      },
+      {
+        "current": true,
+        "nav-item-text": "Про школу"
+      },
+      {
+        "nav-item-text": "Послуги"
+      },
+      {
+        "nav-item-text": "Педагоги"
+      },
+      {
+        "nav-item-text": "Новини"
+      },
+      {
+        "nav-item-text": "Контакти"
+      }
+    ]
+    },
+    "main-carousel": {
+    "slides": [
+      {
+        "slide-description": "Total art school",
+        "slide-name": "about-baner",
+        "slide-title": "Школа вокалу",
+        "slide-btn-text": "Записатись на заняття"
+      }
+    ]
+    },
+    "reasons": {
+      "about-title": "Чому ми?",
+      "data-about-title": "Чому ми?"
+    },
+    "teachers-carousel": {
+      "data-about-title": "Викладачі",
+      "about-title":"Викладачі",
+      "slides": [
+        {
+          "slide-name": "teacher-1",
+          "slide-title": "Bria Blessing",
+          "slide-description": "Викладач Волкалу"
+        },
+        {
+          "slide-name": "teacher-2",
+          "slide-title": "Павло Табаков",
+          "slide-description": "Засновник та творчий директор"
+        },
+        {
+          "slide-name": "teacher-3",
+          "slide-title": "Уляна Фарина",
+          "slide-description": "Викладач Волкалу"
+        },
+        {
+          "slide-name": "teacher-1",
+          "slide-title": "Bria Blessing",
+          "slide-description": "Викладач Волкалу"
+        },
+        {
+          "slide-name": "teacher-2",
+          "slide-title": "Павло Табаков",
+          "slide-description": "Викладач Волкалу"
+        },
+        {
+          "slide-name": "teacher-3",
+          "slide-title": "Уляна Фарина",
+          "slide-description": "Викладач Волкалу"
+        }
+    ]
+    },
+    "foot": {
+      "vendor-scripts": {
+        "jquery": true,
+        "slick-slider": true,
+        "aos": false
+      }
+    },
+    "gallery-carousel": {
+      "about-title": "Галерея",
+      "data-about-title": "Галерея",
+      "slides": [
+        {
+          "slide-name-1": "gallery-item-1",
+          "slide-name-2": "gallery-item-2",
+          "slide-name-3": "gallery-item-3",
+          "slide-name-4": "gallery-item-4",
+          "slide-name-5": "gallery-item-5",
+          "slide-name-6": "gallery-item-6"
+        },
+        {
+          "slide-name-1": "gallery-item-1",
+          "slide-name-2": "gallery-item-2",
+          "slide-name-3": "gallery-item-3",
+          "slide-name-4": "gallery-item-4",
+          "slide-name-5": "gallery-item-5",
+          "slide-name-6": "gallery-item-6"
+        },
+        {
+          "slide-name-1": "gallery-item-1",
+          "slide-name-2": "gallery-item-2",
+          "slide-name-3": "gallery-item-3",
+          "slide-name-4": "gallery-item-4",
+          "slide-name-5": "gallery-item-5",
+          "slide-name-6": "gallery-item-6"
+        }
+    ],
+    "slides-min": [
+      {
+        "slide-name": "gallery-item-1"
+      },
+      {
+        "slide-name": "gallery-item-2"
+      },
+      {
+        "slide-name": "gallery-item-3"
+      },
+      {
+        "slide-name": "gallery-item-4"
+      },
+      {
+        "slide-name": "gallery-item-5"
+      },
+      {
+        "slide-name": "gallery-item-6"
+      }
+    ]
+    },
+    
+    "feed-carousel": {
+      "data-about-title": "Новини",
+      "about-title":"Новини",
+      "slides": [
+      {
+        "slide-name": "feed-1",
+        "slide-title": "Українські фестивалі-2018,  які не можна пропустити",
+        "slide-description": "Весна – час складати плани на літо! А яке ж літо без хоча б кількох гарячих музичних фестивалів? На щастя, вітчизняні фести не дуже поступаються закордонним. Весна – час складати плани на літо..."
+      },
+      {
+        "slide-name": "feed-2",
+        "slide-title": "Українські фестивалі-2018,  які не можна пропустити",
+        "slide-description": "Весна – час складати плани на літо! А яке ж літо без хоча б кількох гарячих музичних фестивалів? На щастя, вітчизняні фести не дуже поступаються закордонним. Весна – час складати плани на літо..."
+      },
+      {
+        "slide-name": "feed-1",
+        "slide-title": "Українські фестивалі-2018,  які не можна пропустити",
+        "slide-description": "Весна – час складати плани на літо! А яке ж літо без хоча б кількох гарячих музичних фестивалів? На щастя, вітчизняні фести не дуже поступаються закордонним. Весна – час складати плани на літо..."
+      },
+      {
+        "slide-name": "feed-2",
+        "slide-title": "Українські фестивалі-2018,  які не можна пропустити",
+        "slide-description": "Весна – час складати плани на літо! А яке ж літо без хоча б кількох гарячих музичних фестивалів? На щастя, вітчизняні фести не дуже поступаються закордонним. Весна – час складати плани на літо..."
+      } 
+    ]
+    },
+    "additional-information": {
+      "about-title": "Безпека та дисципліна для ваших дітей",
+      "data-about-title": "Безпека для дітей"
+    },
+    "contacts": {
+      "about-title":"Контакти"
+    },
+      "about" : {
+        "slide-btn-text": "Записатись на заняття"
+      }   
+  }
 }
+ 

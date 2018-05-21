@@ -132,7 +132,11 @@
     padding-left: 0;
     padding-right: 0;
   }
+  .bg-color {
+    background-color: $color-2;
+  }
   &__slide {
+   
     .slide-outer {
       position: relative;
       padding-top: 54.02%;
@@ -152,24 +156,13 @@
         font-family: $font-3;
         font-size: 5.5rem;
         margin-bottom: 7.5rem;
-      }
-      .btn {
-        &_slide-more {
-          display: inline-block;
-          padding: 14px 47px 15px 30px;
-          border: 3px solid $color-2;
-          border-radius: 60px 60px;
-          color: #000000;
-          font-family: $font-1;
-          font-size: 16px;
-          }
-        } 
-      }
-      
-    } 
-    .dots {
-      bottom: 50px;
-    }
+      } 
+    }  
+  } 
+ &__ 
+  .dots {
+    bottom: 50px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -212,13 +205,100 @@
 /* ---------------------------------------------------------------------------------------- */
 /* ------------------------------------ Content block ------------------------------------ */
 .content-block {
+  .table-wrapper {
+    overflow: auto;
+  }
+  .info-table {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;   
+    box-shadow: 0px 5px 43px 0px rgba(0, 0, 0, 0.11);
+    .header {
+      position: static;
+      width: auto;
+    }
+    td {
+      padding: 10px 30px;
+      font-size: 1rem;
+      font-family: $color-1;
+      border: 1px solid rgba(0,0,0,.05);
+      background-color: #fff;
+    }   
+    th {
+      padding: 20px 30px;
+      font-family: $font-3;
+      font-size: 1.25rem;
+      line-height: 1.25rem;
+      color: $color-3;
+      background-color: $color-2;
+      cursor: pointer;
+      transition: all .3s ease-in-out;
+      .icon {
+        transform-origin: 50% 50%;
+        transition: all .3s ease-in-out;
+      }
+      &:hover, &.headerSortUp, &.headerSortDown {
+        background-color: lighten($color-2, 4%);
+      }
+      &.headerSortUp {
+        .icon {
+          transform: translate(0, -50%) rotateX(180deg);
+        }
+      }
+    }
+    tr {
+      &:first-child {
+        border-bottom: 9px solid #fff;
+      }
+    }
+  }
+  @media screen and (max-width:992px) {
+      .info-table {
+        td {
+          padding: 6px 30px;
+          font-size: 1rem;
+          font-family: $color-1;
+          border: 1px solid rgba(0,0,0,.05);
+          background-color: #fff;
+        }   
+        th {
+          padding: 15px 25px;
+          font-family: $font-3;
+          font-size: 1rem;
+          line-height: 1.25rem;
+          color: $color-3;
+          background-color: $color-2;
+          cursor: pointer;
+          transition: all .3s ease-in-out;
+          white-space: nowrap;
+          .icon {
+            transform-origin: 50% 50%;
+            transition: all .3s ease-in-out;
+          }
+        }
+      }
+    }
   .container {
     padding: 60px 15px;
+    img {
+      display: block;
+      border-radius: 8px;
+    }
   }
 }
 @media screen and (max-width: 992px) {
   .content-block {
+    .title {
+      h2 {
+        padding-bottom: 35px;
+      }
+    }
     .container {
+      .btn-pos-min {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+      }
       padding: 25px 15px;
     }
   }
@@ -229,10 +309,10 @@
   width: 100%;
   text-align: center;
   font-family: $font-4;
-  font-size: 2.5rem;
   margin: 0 0 1.25rem 0;
   padding: 0;
   h2 {
+    font-size: 2.5rem;
     margin: 0;
     padding: 0;
     margin-bottom: 30px;
@@ -272,6 +352,10 @@
     .icons-area {
       .icon {
         font-size: 7.5rem; 
+        &-6 {
+          position: relative;
+          left: 15px;
+        } 
       }
     } 
   }
@@ -295,11 +379,7 @@
     &_3 {
       .icons-area {
         .icon {
-          font-size: 6rem;
-          &-6 {
-            position: relative;
-            left: 15px;
-          } 
+          font-size: 6rem; 
         }
       } 
     }
@@ -325,7 +405,7 @@
       background-position: 50% 50%;
     }
     .info-section {
-      h4,p, a {
+      h4,p {
         margin: 0;
         padding: 0;
         margin-bottom: 1rem;
@@ -337,29 +417,23 @@
         font-family: $font-3;
         font-size: 1.25rem;
       }
-      .more-link {
-        display: inline-block;
-        overflow: hidden;
-        margin-top: 30px;
-        font-family: $font-1;
-        font-size: 1rem;
-        padding: 0 37px;
-        border-radius: 60px 60px;
-        background-color: $color-2;
-        color: #ffffff;
-        font-family: $font-1;
-        font-size: 16px;
-        max-height: 0;
-        transition: all .3s ease-in-out;
-      }
+    }
+    .btn_slide-more {
+         display: inline-block;
+         overflow: hidden;
+         margin-top: 30px;
+         padding: 0 38px;
+         border-width: 0;
+         max-height: 0 ;
     }
     &:hover {
       .info-section {
         padding-bottom: 10px;
-        .more-link {
+        .btn_slide-more {
           max-height: 100vh;
-          padding-top: 10px;
-          padding-bottom: 10px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          border-width: 3px;
         }
       }
     }
@@ -370,16 +444,17 @@
     &__slide {
       .info-section {
         padding-bottom: 10px;
-        .more-link {
+        .btn_slide-more {
           max-height: 100vh;
-          padding-top: 5px;
-          padding-bottom: 5px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          border-width: 3px;
         }
       }
       &:hover {
         display: none;
         .info-section {
-          .more-link {
+          .btn_slide-more {
             max-height: 100vh;
             padding-top: 5px;
             padding-bottom: 5px;
@@ -405,6 +480,7 @@
     margin-bottom: 20px;
     overflow: hidden;
     .slide-outer {
+      border-radius: 8px;
       position: relative;
       padding-top: 73.68%;
       background-repeat: no-repeat;
@@ -413,7 +489,8 @@
       box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
     }
     .info-section {
-      h4,p, a {
+      padding-bottom: 10px;
+      h4,p {
         margin: 0;
         padding: 0;
         margin-bottom: 1rem;
@@ -441,30 +518,23 @@
         font-family: $font-3;
         font-size: 1.25rem;
       }
-      .more-link {
+      .btn_slide-more {
         display: inline-block;
         overflow: hidden;
         margin-top: 30px;
-        font-family: $font-1;
-        font-size: 1rem;
-        padding: 0 37px;
-        border-radius: 60px 60px;
-        border: 0px solid $color-2;
-        color: #000000;
-        font-family: $font-1;
-        font-size: 16px;
-        max-height: 0;
-        transition: all .3s ease-in-out;
+        padding: 0 38px;
+        border-width: 0;
+        max-height: 0 ;
       }
     }
     &:hover {
       .info-section {
         padding-bottom: 10px;
-        .more-link {
-          border: 3px solid $color-2;
-          max-height: 100vh;
-          padding-top: 10px;
-          padding-bottom: 10px;
+        .btn_slide-more {
+          max-height: 100vh; 
+          padding-top: 8px;
+          padding-bottom: 8px;
+          border-width: 3px ;
         }
       }
     }
@@ -478,19 +548,21 @@
     &__slide {
       .info-section {
         padding-bottom: 10px;
-        .more-link {
-          border: 3px solid $color-2;
-          max-height: 100vh;
-          padding-top: 5px;
-          padding-bottom: 5px;
+        .btn_slide-more {
+          max-height: 100vh; 
+          padding-top: 8px;
+          padding-bottom: 8px;
+          border-width: 3px ;
         }
       }
       &:hover {
-        display: none;
+         display: none;
         .info-section {
-          .more-link {
-            padding-top: 5px;
-            padding-bottom: 5px;
+          .btn_slide-more {
+            max-height: 100vh; 
+            padding-top: 8px;
+            padding-bottom: 8px;
+            border-width: 3px ;
           }
         }
       }
@@ -602,3 +674,161 @@
   }
 }
 /* ---------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------- */
+/* ---------------------------------------- VOCAL PAGE ---------------------------------------- */
+/* -------------------------------------------------------------------------------------------- */
+
+
+
+
+.main-carousel {
+  &__slide_one {
+    .slide-inner {
+      h2 {
+        span {   
+          font-family: $font-4;
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+  &__slide {
+    .slide-inner {
+      .main-carousel__slide__title-wrapper {
+        margin-bottom: 2rem;
+        display: inline-block;
+        text-align: right;
+        span {
+          display: block;
+          font-family: $font-4;
+          font-size: 1.6rem;
+        }
+        h2 {
+          display: inline-block;
+          margin-bottom: 0.4rem;
+        }
+      }
+    }
+  }
+}
+
+/* ---------------------------------------- gallery carousel ---------------------------------------- */
+.gallery-carousel {
+  &__slide {
+    .slide-outer {
+      border-radius: 8px;
+      height: 330px;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+    }
+  }
+}
+
+@media screen and (max-width:992px) {
+  .gallery-carousel {
+    display: none;
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------------------------- */
+/* ---------------------------------------- ABOUT PAGE ---------------------------------------- */
+/* -------------------------------------------------------------------------------------------- */
+
+.main-carousel {
+  &__slide {
+    &_one {
+      &__white-text {
+        color: $color-3;
+        a {
+          color: $color-3;
+        }
+      }
+    }
+  }
+}
+
+
+/* ---------------------------------------- section reasons ---------------------------------------- */
+.reasons {
+  font-family: $font-1;
+  font-size: 1rem;
+  .title {
+    font-family: $font-4;
+    font-size: 2.5rem;
+  }
+  .reason-items {
+    .item {
+        padding-left: 70px;
+        background-repeat: no-repeat;
+        background-position: 0 6px;
+      p {
+        margin-top: 3rem;
+      }  
+    } 
+  }
+}
+/* -------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------- section additional information -------------------------- */
+.content-block {
+  font-size: 1rem;
+  font-family: $font-1;
+  .title {
+    h2 {
+      padding-bottom: 45px;
+      font-family: $font-4;
+      font-size: 2.5rem
+    }
+  }
+} 
+
+@media screen and (max-width:992px) {
+  .content-block {
+    .inf-img {
+      display: flex;
+      justify-content: center;
+      padding-top: 30px;
+    }
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+
+// Buttons at slides
+// a.btn_slide-more {
+//   display: inline-block !important;
+//   overflow: hidden !important;
+//   margin-top: 30px !important;
+//   padding: 0 38px !important;
+//   border-width: 0 !important;
+//   max-height: 0 !important;
+// }
+
+// .main-carousel__slide {
+//   a.btn_slide-more {
+//     overflow: visible !important;
+//     padding: 8px 38px !important;
+//     max-height: 100vh !important;
+//     border-width: 3px !important;
+//   }
+// }
+
+// @media screen and (max-width: 992px) {
+//   a.btn_slide-more {
+//     overflow: visible !important;
+//     padding: 8px 38px !important;
+//     max-height: 100vh !important;
+//     border-width: 3px !important;
+//   }
+// }

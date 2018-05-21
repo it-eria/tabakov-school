@@ -17,6 +17,9 @@
       <!-- Animate on scroll -->
       <script src="assets/js/vendors/aos.js"></script>
     {{/aos}}
+    {{#sort-table}}
+      <script src="assets/js/vendors/jquery.tablesorter.js"></script>
+    {{/sort-table}}
     {{/vendor-scripts}}
       <!-- Custom script -->
       <script src="assets/js/script.min.js"></script>
@@ -25,6 +28,8 @@
         var mainCarousel = $('*[data-js="main-carousel"]').length;
         var teacherCarousel = $('*[data-js="teachers-carousel"]').length;
         var feedCarousel = $('*[data-js="feed-carousel"]').length;
+        var galleryCarousel = $('*[data-js="gallery-carousel"]').length;
+        var galleryCarouselmin = $('*[data-js="gallery-carousel_min"]').length;
         // Main carousel
         if(mainCarousel > 0) {
           $('*[data-js="main-carousel"]').slick({
@@ -63,6 +68,13 @@
               nextArrow: "<a href=\"#\" class=\"slider-arr slider-arr_next\"></a>",
               responsive: [
               {
+                breakpoint: 992,
+                  settings: {
+                  dots: false,
+                  slidesToShow: 2
+                }
+              },
+              {
                 breakpoint: 768,
                   settings: {
                   dots: false,
@@ -92,6 +104,47 @@
                   dots: false,
                   slidesToShow: 1
                 }
+              }
+            ]
+            });
+          }
+           // gallery carousel        
+        if(galleryCarousel > 0) {
+            $('*[data-js="gallery-carousel"]').slick({ 
+              slidesToShow: 1,
+              slideToScroll: 1,
+              autoplay: false,
+              autoplaySpeed: 4000,
+              infinite: true,
+              dots:true,
+              appendDots: $('.gallery-carousel-ctrl .dots-place'),
+              arrows: true,
+              prevArrow: "<a href=\"#\" class=\"slider-arr slider-arr_prev\"></a>",
+              nextArrow: "<a href=\"#\" class=\"slider-arr slider-arr_next\"></a>",
+              responsive: [
+              {
+               
+              }
+            ]
+            });
+          }
+
+
+           if(galleryCarouselmin > 0) {
+            $('*[data-js="gallery-carousel_min"]').slick({ 
+              slidesToShow: 1,
+              slideToScroll: 1,
+              autoplay: false,
+              autoplaySpeed: 4000,
+              infinite: true,
+              dots:true,
+              appendDots: $('.gallery-carousel-ctrl .dots-place_m'),
+              arrows: true,
+              prevArrow: "<a href=\"#\" class=\"slider-arr slider-arr_prev\"></a>",
+              nextArrow: "<a href=\"#\" class=\"slider-arr slider-arr_next\"></a>",
+              responsive: [
+              {
+      
               }
             ]
             });

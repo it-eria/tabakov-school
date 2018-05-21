@@ -21,6 +21,8 @@ $(function() {
       $(".header__main-nav").removeAttr('style');
     }
   });
+
+  $(".info-table").tablesorter();   
 });
 // Google Maps
 function initMap() {
@@ -35,6 +37,7 @@ function initMap() {
   var marker = new google.maps.Marker({
     position: markerPos,
     map: map,
-    title: 'Wohlfahrtswerk für Baden-Württemberg'
+    icon: 'assets/img/mapID.png',
+    title: 'Total art school'
   });
 }

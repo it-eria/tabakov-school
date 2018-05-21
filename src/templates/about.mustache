@@ -4,23 +4,30 @@
     <div class="row justify-content-center">
       <div class="col-12 col-lg-10">
          <div class="row">
-            <div class="col-12 col-lg-5">
-              <div class="section-title">
-                <h2>
-                  Total Art School            
-                </h2>
+            <div class="col-12 col-lg-6">
+              <div class="section-title text-left">
+                  <div data-parent="{{data-about-title}}" class="txt-shadow">
+                    <h2>
+                      {{about-title}}              
+                    </h2>
+                  </div>  
               </div>
               <div class="text-about">
                 <p>
-                  Креативна школа «Total Art» заснована Павлом Табаковим, професійним вокалістом, композитором і аранжувальником, який має велику любов до музики і театру! За його плечима  величезний досвід роботи на сцені, а також викладацької діяльності і роботи з дітьми.
+                 {{text-about-1}} 
                 </p>
                 <p>
-                  Школа створена для дітей і молоді, яка хоче розвиватися творчо і креативно у напрямках вокалу, хореографії і музичного театру.
+                 {{text-about-2}}
                 </p>
-              </div>            
+              </div>
+              <div class="text-right mt-4">
+                  <div class="btn-pos-min">
+                    <a href="#" class="btn btn_slide-more">{{slide-btn-text}}</a>    
+                  </div>       
+              </div>
             </div>
-            <div class="col-12 col-lg-7 about-img">
-              <img src="assets/img/сhildren.jpg" alt="#" class="img-fluid d-block mx-auto">
+            <div class="col-12 col-lg-6 about-img">
+              <img src="assets/img/{{image-name}}" alt="thumbnail" class="img-fluid d-block mx-auto">
             </div>
           </div>
         </div>
