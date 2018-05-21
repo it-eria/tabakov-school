@@ -231,6 +231,7 @@
       line-height: 1.25rem;
       color: $color-3;
       background-color: $color-2;
+      white-space: nowrap;
       cursor: pointer;
       transition: all .3s ease-in-out;
       .icon {
