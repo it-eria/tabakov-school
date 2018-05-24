@@ -4,32 +4,34 @@
     <div class="row justify-content-center">
       <div class="col-12 col-lg-10">
          <div class="row">
-            <div class="col-12 col-lg-6">
-              <div class="section-title text-left">
-                  <div data-parent="{{data-about-title}}" class="txt-shadow">
+            <div class="col-12 col-md-6 col-lg-5">
+              <div class="d-flex flex-column h-100">
+                <div class="section-title text-left">
+                  <div data-parent="{{data-about-title}}" class="txt-shadow txt-shadow_left">
                     <h2>
                       {{about-title}}              
                     </h2>
                   </div>  
-              </div>
-              <div class="text-about">
-                <p>
-                 {{text-about-1}} 
-                </p>
-                <p>
-                 {{text-about-2}}
-                </p>
-                <p>
-                  {{text-about-3}}
-                </p>
-              </div>
-              <div class="mt-4 ml-4">
-                  <div class="btn-pos-min">
-                    <a href="#" class="btn btn_slide-more">{{slide-btn-text}}</a>    
-                  </div>       
+                </div>
+                <div class="text-about">
+                  <p>
+                  {{text-about-1}} 
+                  </p>
+                  <p>
+                  {{text-about-2}}
+                  </p>
+                  <p>
+                    {{text-about-3}}
+                  </p>
+                </div>
+                <div class="mt-auto">
+                    <div class="btn-pos-min mt-4 ml-4">
+                      <a href="#" class="btn btn_slide-more">{{slide-btn-text}}</a>    
+                    </div>       
+                </div>
               </div>
             </div>
-            <div class="col-12 col-lg-6 about-img">
+            <div class="col-12 col-md-6 col-lg-7 about-img">
               <img src="assets/img/{{image-name}}" alt="thumbnail" class="img-fluid d-block mx-auto">
             </div>
           </div>

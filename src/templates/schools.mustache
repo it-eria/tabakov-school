@@ -1,10 +1,24 @@
+{{#schools}}
 <section class="content-block">
   <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <div data-parent="{{data-about-title}}" class="txt-shadow">
+            <h2>
+              {{about-title}}              
+            </h2>
+          </div>  
+        </div>
+      </div>
+    </div>
     <div class="row">
       <div class="col-12 col-lg-4">
         <a href="#" class="school-item school-item_1">
           <div class="school-title mb-3 mb-lg-5 mx-auto">
-            <h2>#Школа Вокалу</h2>
+            <div data-parent="Школа Вокалу" class="txt-shadow">
+              <h2>#Курс Вокалу</h2>
+            </div>
           </div>
           <div class="icons-area d-flex justify-content-between">
             <i class="icon icon-1"></i>
@@ -16,7 +30,9 @@
       <div class="col-12 col-lg-4">
         <a href="#" class="school-item school-item_2">
           <div class="school-title mb-3 mb-lg-5 mx-auto">
-            <h2>#Школа<br>Акторської майстерності</h2>
+            <div data-parent="Акторська майстерність" class="txt-shadow txt-shadow_wrap">
+              <h2>#Курс<br>Акторської майстерності</h2>
+            </div>
           </div>
           <div class="icons-area d-flex justify-content-center">
             <i class="icon icon-4"></i>
@@ -26,7 +42,9 @@
       <div class="col-12 col-lg-4">
         <a href="#" class="school-item school-item_3">
           <div class="school-title mb-3 mb-lg-5 mx-auto">
-            <h2>#Школа хореографії</h2>
+            <div data-parent="Хореографія" class="txt-shadow">
+              <h2>#Курс хореографії</h2>
+            </div>
           </div>
           <div class="icons-area d-flex justify-content-between">
             <i class="icon icon-5"></i>
@@ -38,3 +56,4 @@
     </div>
   </div>
 </section>
+{{/schools}}
