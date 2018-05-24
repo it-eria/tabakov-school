@@ -136,14 +136,22 @@
     background-color: $color-2;
   }
   &__slide {
-   
     .slide-outer {
       position: relative;
       padding-top: 54.02%;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: 50% 50%;
+      .description-wrapper {
+        width: 48%  ;
+      display: flex;
+      justify-content: space-between;
+       
+         
+        
+      }
     }
+    
     .slide-inner {
       width: 100%;
       height: auto;
@@ -316,7 +324,7 @@
     font-size: 2.5rem;
     margin: 0;
     padding: 0;
-    margin-bottom: 30px;
+
   }
 }
 /* --------------------------------------------------------------------------------------- */
@@ -426,6 +434,7 @@
          padding: 0 38px;
          border-width: 0;
          max-height: 0 ;
+         
     }
     &:hover {
       .info-section {
@@ -702,8 +711,8 @@
     .slide-inner {
       .main-carousel__slide__title-wrapper {
         margin-bottom: 2rem;
-        display: inline-block;
-        text-align: right;
+        display: block;
+
         span {
           display: block;
           font-family: $font-4;

@@ -68,10 +68,11 @@ a {
 }
 
 .dots-place, .dots-place_m {
-
+  
   .slick-dots {
     position: relative;
-    bottom: 0;
+    bottom: 60px;
+    left: 75px;
     text-align: center;
     li {
       width: 8px;
@@ -93,6 +94,8 @@ a {
     }
   }
   &_white {
+    bottom: 20px;
+    left: 75px;
     .slick-dots {
       li {
         button {
