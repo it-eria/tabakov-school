@@ -10,14 +10,18 @@
           <div class="main-carousel__slide main-carousel__slide_one">
             <div class="slide-outer" style="background-image: url(assets/img/{{slide-name}}.jpg);">
               <div class="slide-inner">
-                <div class="row justify-content-center">
-                  <div class="col-12 col-lg-10">
-                    <div class="main-carousel__slide__title-wrapper">
+                <div class="row">
+                  <div class="col-12 col-lg-7 offset-lg-1">
+                    <div class="main-carousel__slide__title-wrapper d-inline-block">
                       <h2>{{slide-title}}</h2>
-                      <span>{{slide-description}}</span>
-                    </div>
-                    <div class="w-100">
-                      <a class="btn btn_slide-more" href="#">{{slide-btn-text}}</a>
+                      <div class="description-wrapper mt-3 d-flex flex-column flex-lg-row justify-content-between w-100">
+                        <div class="btn-mdf">
+                          <a class="btn btn_slide-more btn_slide-more__main" href="#">{{slide-btn-text}}</a>
+                        </div>
+                        <div class="pos text-center text-lg-right">
+                          <span>{{slide-description}}</span>
+                        </div> 
+                      </div>
                     </div>
                   </div>
                 </div>
