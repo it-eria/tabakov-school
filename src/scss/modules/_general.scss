@@ -15,6 +15,8 @@ body, html {
   margin-top: 50px;
 }
 
+
+
 @media screen and (min-width: 0px) and (max-width: 320px) {
   body{
     background-image: none;
@@ -36,6 +38,8 @@ body, html {
   }
 }
 
+
+
 .txt-shadow {
   display: inline-block;
   position: relative;
@@ -47,7 +51,7 @@ body, html {
     position: absolute;
     z-index: 100;
     top: -80%;
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 4rem;
     font-family: $font-3;
     opacity: .05;
@@ -137,7 +141,7 @@ a {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   position: absolute;
-  top: 150px;
+  top: 50%;
   transform: translate(0, -50%);
   &_prev {
     background-image: url(../img/slider-arr-left.png);
@@ -218,6 +222,10 @@ p {
       color: $color-3;
     }
   }
+}
+
+.pt-50 {
+  padding-top: 50px;
 }
 
 /* ----- Container ----- */
