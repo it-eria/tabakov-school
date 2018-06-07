@@ -56,13 +56,12 @@ gulp.task('scss-to-css', function() {
                         browsers: ['last 2 versions'],
                         cascade: false
                   }))
-                  .pipe(grMediaQueries())
                   .pipe(cleanCSS())
-                  .pipe(rename({
-                        basename: 'style',
-                        suffix: '.min'
-                  }))
             .pipe(sourcemap.write())
+            .pipe(rename({
+                  basename: 'style',
+                  suffix: '.min'
+            }))
             .pipe(gulp.dest(paths.build.css))
             .pipe(browserSync.stream());
 });
@@ -140,7 +139,7 @@ gulp.task('watch', function() {
 // Build Task
 gulp.task('build', gulp.series(
       'clear-build',
-      gulp.parallel('vendors-to-build', 'mustache-to-html','scss-to-css','js-to-build','images-to-build', 'fonts-to-build')
+      gulp.parallel('vendors-to-build','mustache-to-html','scss-to-css','js-to-build','images-to-build', 'fonts-to-build')
 ));
   
 // Dev Task
