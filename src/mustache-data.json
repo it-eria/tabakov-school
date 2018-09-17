@@ -7,16 +7,16 @@
       "nav-items": [
         {
           "current": true,
-          "nav-item-text": "Головна"
-        },
-        {
           "nav-item-text": "Про школу"
         },
         {
-          "nav-item-text": "Послуги"
+          "nav-item-text": "Напрямки"
         },
         {
-          "nav-item-text": "Педагоги"
+          "nav-item-text": "Викладачі"
+        },
+        {
+          "nav-item-text": "Галерея"
         },
         {
           "nav-item-text": "Новини"
@@ -27,8 +27,8 @@
       ]
     },
     "schools": {
-      "about-title": "Оберіть курс",
-      "data-about-title": "Оберіть курс"
+      "about-title": "Напрямки",
+      "data-about-title": "Напрямки"
     },   
     "main-carousel": {
       "slide-description": "Total art school",
@@ -56,8 +56,8 @@
       ]
     },
     "about": {
-      "about-title": "Total Art School",
-      "data-about-title": "Total Art School",
+      "title": "Total Art School",
+      "concert-title-data": "Total Art School",
       "slide-btn-text": "Дізнатись більше",
       "paragraphs": [
         {
@@ -73,8 +73,34 @@
       
       "image-name": "сhildren.jpg"
     },
+    "advantages-section":{
+      "title-data-advantages":"Наші переваги",
+      "title":"Наші переваги",
+      "item-info":[
+        {
+          "image":"assets/img/green-medal.png",
+          "title":"Перевага 1",
+          "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+          "image":"assets/img/violet-medal.png",
+          "title":"Перевага 2",
+          "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+          "image":"assets/img/yellow-medal.png",
+          "title":"Перевага 3",
+          "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+          "image":"assets/img/blue-medal.png",
+          "title":"Перевага 4",
+          "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+      ]
+    },
     "teachers-carousel": {
-      "data-about-title": "Викладачі",
+      "data-teachers-title": "Викладачі",
       "about-title":"Викладачі",
       "slides": [
         {
@@ -110,7 +136,7 @@
       ]
     },
     "feed-carousel": {
-      "data-about-title": "Новини",
+      "data-feed-title": "Новини",
       "about-title":"Новини",
       "slides": [
         {
@@ -135,8 +161,20 @@
         } 
       ]
     },
+    "concert-section":{
+      "title": "Концертний склад",
+      "concert-title-data": "Концертний"
+
+ 
+    },
+    "testimonials":{
+      "title-data":"Відгуки",
+      "title":"Відгуки"
+    },
     "contacts": {
-      "about-title":"Контакти"
+      "about-title":"Контакти",
+      "data-about-title":"Контакти"
+
     },
     "foot": {
       "vendor-scripts": {
@@ -787,5 +825,8 @@
       }
     }
   }
+
+ 
+
 }
  

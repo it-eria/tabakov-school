@@ -30,9 +30,9 @@ body, html {
     
 }
 
-.container {
-  background-color: $color-3;
-  box-shadow: 0px 12px 63.99px 17.01px rgba(0, 0, 0, 0.13);  
+.main-container {
+background-color: #fff;
+
 }
 .section-title {
   h2 {
@@ -47,14 +47,14 @@ body, html {
   display: inline-block;
   position: relative;
   &:before {
-    content: attr(data-parent);
+    content: attr(data-about-title);
     display: flex;
     width: 100%;
     justify-content: center;
     position: absolute;
     z-index: 100;
-    top: -80%;
-    font-size: 3rem;
+    top: -55%;
+    font-size: 80px;
     line-height: 4rem;
     font-family: $font-3;
     opacity: .05;
@@ -70,7 +70,8 @@ body, html {
   }
   &_left {
     &:before {
-      justify-content: flex-start;
+      
+     justify-content: center;
     }
   }
 }
@@ -268,3 +269,355 @@ p {
     }
   }
 }
+
+
+
+
+
+.text-shadow {
+  display: inline-block;
+  position: relative;
+  &:before {
+    content:attr(title-data) ;
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    top: -30%;
+    font-size: 80px;
+    line-height: 4rem;
+    font-family: OswaldBold;
+    opacity: .05;
+    letter-spacing: .2rem;
+    text-align: center;
+    white-space: nowrap;
+    }
+  &_wrap {
+    &:before {
+      white-space: initial;
+      top: -80%;
+    }
+  }
+  &_left {
+    &:before {
+      justify-content: flex-start;
+    }
+  }
+}
+
+
+
+
+
+.concert-section__text-shadow {
+  display: inline-block;
+  position: relative;
+  &:before {
+    content:attr(concert-title-data) ;
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: flex-start;
+    position: absolute;
+    z-index: 100;
+    top: -37%;
+    font-size: 80px;
+    line-height: 4rem;
+    font-family: OswaldBold;
+    opacity: .05;
+    letter-spacing: .2rem;
+    text-align: center;
+    white-space: nowrap;
+    left: -3px;
+    }
+  &_wrap {
+    &:before {
+      white-space: initial;
+      top: -80%;
+    }
+  }
+  &_left {
+    &:before {
+      justify-content: flex-start;
+    }
+  }
+}
+
+
+
+.advantages__main__title-default-text-shadow {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  &:before {
+    content:attr(title-data-advantages) ;
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    top: -30%;
+    font-size: 80px;
+    line-height: 4rem;
+    font-family: OswaldBold;
+    opacity: .05;
+    letter-spacing: .2rem;
+    text-align: center;
+    white-space: nowrap;
+    left: -3px;
+    }
+  &_wrap {
+    &:before {
+      white-space: initial;
+      top: -80%;
+    }
+  }
+  &_left {
+    &:before {
+      justify-content: flex-start;
+    }
+  }
+}
+
+
+
+
+.testimonials .text-shadow {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  &:before {
+    content:attr(data-about-title) ;
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    top: -55%;
+    font-size: 80px;
+    line-height: 4rem;
+    font-family: OswaldBold;
+    opacity: .05;
+    letter-spacing: .2rem;
+    text-align: center;
+    white-space: nowrap;
+    left: -3px;
+    }
+  &_wrap {
+    &:before {
+      white-space: initial;
+      top: -80%;
+    }
+  }
+  &_left {
+    &:before {
+      justify-content: flex-start;
+    }
+  }
+}
+
+
+
+.directions__main__title-default.text-shadow {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 60px;
+  &:before {
+    content:attr(data-about-title) ;
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    top: -25%;
+    font-size: 80px;
+    line-height: 4rem;
+    font-family: OswaldBold;
+    opacity: .05;
+    letter-spacing: .2rem;
+    text-align: center;
+    white-space: nowrap;
+    left: -3px;
+    }
+  &_wrap {
+    &:before {
+      white-space: initial;
+      top: -80%;
+    }
+  }
+  &_left {
+    &:before {
+      justify-content: flex-start;
+    }
+  }
+}
+
+
+
+
+
+.txt-shadow_left .txt-shadow  {
+  display: inline-block;
+  position: relative;
+  
+  &:before {
+    content: attr(data-about-title);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    top: -55%;
+    font-size: 80px;
+    line-height: 4rem;
+    font-family: $font-3;
+    opacity: .05;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    white-space: nowrap;
+  }
+  &_wrap {
+    &:before {
+      white-space: initial;
+      top: -80%;
+    }
+  }
+  &_left {
+    &:before {
+      justify-content: center;
+    }
+  }
+}
+
+
+
+
+.txt-shadow_art .txt-shadow   {
+  display: inline-block;
+  position: relative;  
+  &:before {
+    content: attr(concert-title-data);
+    display: flex;
+    width: 100%;
+    justify-content: flex-start !important;
+    position: absolute;
+    z-index: 100;
+    top: -55%;
+    font-size: 80px;
+    line-height: 4rem;
+    font-family: $font-3;
+    opacity: .05;
+    letter-spacing: -0.2rem;
+    text-align: center;
+    white-space: nowrap;
+  }
+  &_wrap {
+    &:before {
+      white-space: initial;
+      top: -80%;
+    }
+  }
+  &_left {
+    &:before {
+      justify-content: flex-start;
+    }
+  }
+}
+
+
+
+
+.txt-shadow .txt-teachers   {
+  display: inline-block;
+  position: relative;  
+  &:before {
+    content: attr(data-teachers-title);
+    display: flex;
+    width: 100%;
+    justify-content: center !important;
+    position: absolute;
+    z-index: 100;
+    top: -55%;
+    font-size: 80px;
+    line-height: 4rem;
+    font-family: $font-3;
+    opacity: .05;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    white-space: nowrap;
+  }
+  &_wrap {
+    &:before {
+      white-space: initial;
+      top: -80%;
+    }
+  }
+  &_left {
+    &:before {
+      justify-content: center;
+    }
+  }
+}
+
+
+
+
+
+.txt-shadow .txt-feed   {
+  display: inline-block;
+  position: relative;  
+  &:before {
+    content: attr(data-feed-title);
+    display: flex;
+    width: 100%;
+    justify-content: center !important;
+    position: absolute;
+    z-index: 100;
+    top: -55%;
+    font-size: 80px;
+    line-height: 4rem;
+    font-family: $font-3;
+    opacity: .05;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    white-space: nowrap;
+  }
+  &_wrap {
+    &:before {
+      white-space: initial;
+      top: -80%;
+    }
+  }
+  &_left {
+    &:before {
+      justify-content: center;
+    }
+  }
+}
+

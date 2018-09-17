@@ -22,7 +22,7 @@ $(function() {
     }
   });
 
-  $(".info-table").tablesorter();   
+  // $(".info-table").tablesorter();   
 });
 // Google Maps
 function initMap() {
@@ -41,3 +41,17 @@ function initMap() {
     title: 'Total art school'
   });
 }
+
+
+
+$('.testimonials_block__main__slider_testimonials').slick({
+  // rtl:true,
+  dots: false,
+  slidesToScroll: 1,
+  slidesToShow: 1,
+  arrows: true,
+  autoplay: true,
+  autoplaySpeed: 1000,
+  prevArrow: '<img class="next-arrow" src="assets/img/slider-arr-left.png">',
+  nextArrow: '<img class="prew-arrow" src="assets/img/slider-arr-right.png">',
+});
