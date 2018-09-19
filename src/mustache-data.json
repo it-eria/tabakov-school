@@ -16,7 +16,7 @@
           "nav-item-text": "Викладачі"
         },
         {
-          "nav-item-text": "Галерея"
+          "nav-item-text": "Педагоги"
         },
         {
           "nav-item-text": "Новини"
@@ -755,10 +755,10 @@
     "about": {
       "title-desk": true,
       "additional-classes": "pt-50",
-      "add-class": "text-right",
+      "add-class": "text-left",
       "about-title": "Табаков Павло Андрійович",
       "data-about-title": "Табаков Павло",
-      "slide-btn-text": "Дізнатись більше",
+      "slide-btn-text": "Записатись на заняття",
       "paragraphs": [
         {
         "text-about": "Професійних співак, композитор і аранжувальник. Переможець двох вокальних проектів <b>“Шанс”</b> і <b>“Голос країни”</b> і просто людина з великим музичним і сценічним досвідом."
@@ -778,7 +778,7 @@
     },
     "teachers-carousel": {
       "data-about-title": "Інші викладачі",
-      "about-title":"Інші Викладачі викладачі",
+      "about-title":"Інші Викладачі",
       "slides": [
         {
           "slide-name": "teacher-1",
@@ -813,7 +813,99 @@
       ]
     },
     "schools": {
+      "about-title": "Напрямки",
+      "data-about-title": "Напрямки"
+    }, 
+    "contacts": {
+      "about-title":"Контакти"
     },
+    "foot": {
+      "vendor-scripts": {
+        "jquery": true,
+        "slick-slider": true,
+        "aos": false
+      }
+    }
+  },
+  "teacher-main":{
+    "head": {
+      "title": "Teacher"
+    },
+    "header": {
+      "nav-items": [
+        {
+          "nav-item-text": "Головна"
+        },
+        {
+          "nav-item-text": "Про школу"
+        },
+        {
+        
+          "nav-item-text": "Послуги"
+        },
+        {
+          "current": true,
+          "nav-item-text": "Педагоги"
+        },
+        {
+          "nav-item-text": "Новини"
+        },
+        {
+          "nav-item-text": "Контакти"
+        }
+      ]
+    },
+    "all-teacher": {
+      "data-teachers-title": "Викладачі",
+      "about-title":"Викладачі",
+    
+      "slides": [
+        {
+          "slide-name": "teacher-1",
+          "slide-title": "Bria Blessing",
+          "slide-description": "Викладач волкалу"
+        },
+        {
+          "slide-name": "teacher-2",
+          "slide-title": "Павло Табаков",
+          "slide-description": "Засновник та творчий директор"
+        },
+        {
+          "slide-name": "teacher-3",
+          "slide-title": "Уляна Фарина",
+          "slide-description": "Викладач волкалу"
+        },
+        {
+          "slide-name": "teacher-5",
+          "slide-title": "Софія Сливка",
+          "slide-description": "Викладач волкалу"
+        },
+        {
+          "slide-name": "teacher-4",
+          "slide-title": "Зоряна Чоловська",
+          "slide-description": "Викладач волкалу"
+        },
+        {
+          "slide-name": "teacher-6",
+          "slide-title": "Дарина Тураш",
+          "slide-description": "Викладач хореографії"
+        },
+        {
+          "slide-name": "teacher-7",
+          "slide-title": "Мирослава Солук",
+          "slide-description": "Викладач акторської майстерності"
+        },
+        {
+          "slide-name": "teacher-8",
+          "slide-title": "Оксана Козакевич",
+          "slide-description": "Викладач акторської майстерності"
+        }
+      ]
+    },
+    "schools": {
+      "about-title": "Напрямки",
+      "data-about-title": "Напрямки"
+    }, 
     "contacts": {
       "about-title":"Контакти"
     },

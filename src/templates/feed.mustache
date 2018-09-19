@@ -1,17 +1,17 @@
-{{#feed-carousel}} 
+{{#feed-carousel}}
 <section class="content-block">
-  <div class="container main-container">   
+  <div class="container main-container">
     <div class="row justify-content-center">
       <div class="col-12 col-lg-10">
         <div class="row">
           <div class="col-12">
-              <div class="section-title txt-shadow txt-feed">
-                  <div data-feed-title="{{data-feed-title}}" class="txt-shadow txt-feed">
-                    <h2>
-                      {{about-title}}              
-                    </h2>
-                  </div>  
+            <div class="section-title txt-shadow txt-feed">
+              <div data-feed-title="{{data-feed-title}}" class="txt-shadow txt-feed">
+                <h2>
+                  {{about-title}}
+                </h2>
               </div>
+            </div>
           </div>
         </div>
         <div class="row">
@@ -20,18 +20,18 @@
               {{#slides}}
               <!-- Slide -->
               <div class="feed-carousel__slide mx-3">
-                  <div class="slide-outer" style="background-image: url(assets/img/{{slide-name}}.jpg);"></div>
-                  <div class="info-section">
-                    <h4 class="d-flex justify-content-left">{{slide-title}}</h4>
-                    <p class="d-flex justify-content-left">{{slide-description}}</p>
-                      <span>
-                        02/06/2018
-                      </span>
-                      <div class="d-flex justify-content-center">
-                        <a href="#" class="btn btn_slide-more">Дізнитись більше</a>
-                      </div>
+                <div class="slide-outer" style="background-image: url(assets/img/{{slide-name}}.jpg);"></div>
+                <div class="info-section">
+                  <h4 class="d-flex justify-content-left">{{slide-title}}</h4>
+                  <p class="d-flex justify-content-left">{{slide-description}}</p>
+                  <span>
+                    02/06/2018
+                  </span>
+                  <div class="d-flex justify-content-center">
+                    <a href="#" class="btn btn_slide-more violet">Дізнитись більше</a>
                   </div>
                 </div>
+              </div>
               <!-- /Slide -->
               {{/slides}}
             </div>
@@ -41,7 +41,7 @@
           </div>
         </div>
       </div>
-    </div>  
+    </div>
   </div>
 </section>
 {{/feed-carousel}}
