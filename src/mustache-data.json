@@ -24,33 +24,37 @@
         {
           "nav-item-text": "Контакти"
         }
+      
+        
+        
       ]
+    
     },
     "schools": {
       "about-title": "Напрямки",
       "data-about-title": "Напрямки"
     },   
     "main-carousel": {
-      "slide-description": "Total art school",
+      "slide-description": "Ти унікальний!",
       "slides": [
         {
           "slide-name": "slide-1",
-          "slide-title": "Ти унікальний!",
+          "slide-title": " Total art school",
           "slide-btn-text": "Записатись на заняття"
         },
         {
           "slide-name": "slide-1",
-          "slide-title": "Ти унікальний!",
+          "slide-title": "Total art school",
           "slide-btn-text": "Записатись на заняття"
         },
         {
           "slide-name": "slide-1",
-          "slide-title": "Ти унікальний!",
+          "slide-title": "Total art school",
           "slide-btn-text": "Записатись на заняття"
         },
         {
           "slide-name": "slide-1",
-          "slide-title": "Ти унікальний!",
+          "slide-title": "Total art school",
           "slide-btn-text": "Записатись на заняття"
         }
       ]
@@ -135,7 +139,7 @@
         }
       ]
     },
-    "feed-carousel": {
+    "feed-carousel": { 
       "data-feed-title": "Новини",
       "about-title":"Новини",
       "slides": [
@@ -173,8 +177,7 @@
     },
     "contacts": {
       "about-title":"Контакти",
-      "data-about-title":"Контакти"
-
+      "data-contact-title":"Контакти"
     },
     "foot": {
       "vendor-scripts": {
@@ -218,13 +221,15 @@
         "slide-name": "vocal-baner",
         "slide-title": "Школа вокалу",
         "slide-btn-text": "Записатись на заняття"
+        
       }
     ]
   },
   "about": {
-    "about-title": "Навчання у нашій школі",
-    "data-about-title": "Школа вокалу",
+    "title": "Вокал у Total Art School",
+    "concert-title-data": "Total Art School",
     "slide-btn-text": "Записатись на заняття",
+   
     "paragraphs": [
       {
         "text-about": "Це можливість відкрити свої таланти, співати серцем і відчувати музику кожною клітинкою свого тіла.  Тут ти розвиватимеш свої вокальні здібності з професійними співаками, композиторами та аранжувальниками."    
@@ -239,8 +244,12 @@
     
     "image-name": "vocal-about-img.jpg"
   },
+  "teaching-program":{
+    "about-title": "Програма навчання",
+      "data-about-title": "Програма навчання"
+  },
   "teachers-carousel": {
-    "data-about-title": "Викладачі",
+    "data-teachers-title": "Викладачі",
     "about-title":"Викладачі",
     "slides": [
       {
@@ -275,9 +284,15 @@
       }
     ]
   },
+  "price-section":{
+    "title":"Вартість навчання",
+    "data-about-title":"Вартість навчання"
+  },
+
   "gallery-carousel": {
     "about-title": "Галерея",
     "data-about-title": "Галерея",
+    "gallery-btn":"",
     "slides": [
       {
         "slide-name-1": "gallery-item-1",
@@ -333,7 +348,7 @@
     }  
   },
   "feed-carousel": {
-    "data-about-title": "Новини",
+    "data-feed-title": "Новини",
     "about-title":"Новини",
     "slides": [
       {
@@ -359,7 +374,8 @@
     ]
   },
   "contacts": {
-    "about-title":"Контакти"
+    "about-title":"Контакти",
+    "data-contact-title":"Контакти"
   },
   "foot": {
     "vendor-scripts": {
@@ -397,11 +413,30 @@
       }
     ]
     },
+    "about": {
+      "title": "Total Art School",
+      "concert-title-data": "Total Art School",
+      "slide-btn-text": "Дізнатись більше",
+      "paragraphs": [
+        {
+        "text-about": "Це креативна школа для творчих натур, яким пророковано стати видатними співаками, танцюристами, хореографами та акторами."
+        },
+        {
+        "text-about": "Бажання творчо розвиватись і хоч краплинка таланту - цього вже достатньо, щоб ми перетворили твій природний хист на цілий океан можливостей та реалізованих творчих ідей."
+        },
+        {
+        "text-about": "Ти унікальний і ти заслуговуєш на кращих креативних наставників та викладачів з Total Art School, яку заснував професійний співак, композитор і аранжувальник Павло Табаков."
+        }
+      ],
+      
+      "image-name": "сhildren.jpg"
+    },
     "main-carousel": {
+     
     "slides": [
       {
         "slide-description": "Total art school",
-        "slide-name": "about-baner",
+        "slide-url": "assets/img/slide-1.jpg",
         "slide-title": "Школа вокалу",
         "slide-btn-text": "Записатись на заняття"
       }
@@ -412,7 +447,7 @@
       "data-about-title": "Чому ми?"
     },
     "teachers-carousel": {
-      "data-about-title": "Викладачі",
+      "data-teachers-title": "Викладачі",
       "about-title":"Викладачі",
       "slides": [
         {
@@ -457,6 +492,7 @@
     "gallery-carousel": {
       "about-title": "Галерея",
       "data-about-title": "Галерея",
+      "gallery-btn":"Побачити більше",
       "slides": [
         {
           "slide-name-1": "gallery-item-1",
@@ -504,9 +540,33 @@
       }
     ]
     },
-    
+    "achievement-section":{
+      "title-default":"Досягнення та нагороди",
+      "title":"Досягнення та нагороди",
+      "item-info":[
+        {
+          "image":"assets/img/cup.png",
+          "title":"112 міжнародних нагород",
+          "description":"Ми пропонуємо вам широкий діапазон можливостей по конкурентноспроможній ціні. І це робить нас кращими в своїй галузі"
+        },
+        {
+          "image":"assets/img/student.png",
+          "title":"7327 учнів",
+          "description":"Популярні телеведучі, артисти естради, актори театру, які успішно працюють по всьому світу"
+        },
+        {
+          "image":"assets/img/microphon.png",
+          "title":"10 авторских мюзиклов",
+          "description":"Легендарний спектакль-елегія '45 хвилин', музичний спектакль 'Мінськ - моя сім'я' та ін."},
+        {
+          "image":"assets/img/performance.png",
+          "title":"1018 виступів",
+          "description":"На найбільших сценах Європи, міжнародних фестивалях та театральних сценах"
+        }
+      ]
+    },
     "feed-carousel": {
-      "data-about-title": "Новини",
+      "data-feed-title": "Новини",
       "about-title":"Новини",
       "slides": [
       {
@@ -531,16 +591,16 @@
       } 
     ]
     },
+
     "additional-information": {
       "about-title": "Безпека та дисципліна для ваших дітей",
       "data-about-title": "Безпека для дітей"
     },
     "contacts": {
-      "about-title":"Контакти"
-    },
-      "about" : {
-        "slide-btn-text": "Записатись на заняття"
-      }   
+      "about-title":"Контакти",
+      "data-contact-title":"Контакти"
+    }
+  
   },
   "open-news": {
     "head": {
@@ -576,11 +636,11 @@
       }
     },
     "news": {
-      "data-about-title":"Новини",
+      "data-about-title":"",
       "about-title":"Українські фестивалі 2018, які не можна пропустити"
     },
     "news-teasers": {
-      "data-about-title":"Інші новини",
+      "data-feed-title":"Інші новини",
       "about-title":"Інші новини",
       "slides": [
         {
@@ -616,7 +676,8 @@
       ]
     },
     "contacts": {
-      "about-title":"Контакти"
+      "about-title":"Контакти",
+      "data-contact-title":"Контакти"
     },
     "foot": {
       "vendor-scripts": {
@@ -657,7 +718,7 @@
     },
     "news-teasers": {
       "additional-classes": "pt-50",
-      "data-about-title":"Новини",
+      "data-feed-title":"Новини",
       "about-title":"Новини",
       "slides": [
         {
@@ -713,7 +774,8 @@
       ]
     },
     "contacts": {
-      "about-title":"Контакти"
+      "about-title":"Контакти",
+      "data-contact-title":"Контакти"
     },
     "foot": {
       "vendor-scripts": {
@@ -753,11 +815,12 @@
       ]
     },
     "about": {
+      "title":"Табаков Павло Анатолійович",
       "title-desk": true,
       "additional-classes": "pt-50",
       "add-class": "text-left",
       "about-title": "Табаков Павло Андрійович",
-      "data-about-title": "Табаков Павло",
+      "concert-title-data": "Табаков Павло",
       "slide-btn-text": "Записатись на заняття",
       "paragraphs": [
         {
@@ -777,7 +840,7 @@
       "image-name": "tabakov.jpg"
     },
     "teachers-carousel": {
-      "data-about-title": "Інші викладачі",
+      "data-teachers-title": "Інші викладачі",
       "about-title":"Інші Викладачі",
       "slides": [
         {
@@ -856,7 +919,7 @@
       ]
     },
     "all-teacher": {
-      "data-teachers-title": "Викладачі",
+      "data-feed-title": "Викладачі",
       "about-title":"Викладачі",
     
       "slides": [
@@ -907,7 +970,8 @@
       "data-about-title": "Напрямки"
     }, 
     "contacts": {
-      "about-title":"Контакти"
+      "about-title":"Контакти",
+      "data-contact-title":"Контакти"
     },
     "foot": {
       "vendor-scripts": {
@@ -916,9 +980,309 @@
         "aos": false
       }
     }
+  },
+
+ "vacancy":{
+  "head": {
+    "title": "Vacancy"
+  },
+  "header": {
+    "nav-items": [
+      {
+        "nav-item-text": "Головна"
+      },
+      {
+        "nav-item-text": "Про школу"
+      },
+      {
+      
+        "nav-item-text": "Послуги"
+      },
+      {
+        "nav-item-text": "Педагоги"
+      },
+      {
+        "current": true,
+        "nav-item-text": "Новини"
+      },
+      {
+        "nav-item-text": "Контакти"
+      }
+    ]
+  },
+  "schools": {
+    "about-title": "Напрямки",
+    "data-about-title": "Напрямки"
+  }, 
+  "contacts": {
+    "about-title":"Контакти",
+    "data-contact-title":"Контакти"
+  },
+  "foot": {
+    "vendor-scripts": {
+      "jquery": true,
+      "slick-slider": true,
+      "aos": false,
+      "sort-table": true
+    }
+  } ,
+  "section-vacancy":{
+    "about-title":"Вакансія",
+    "data-about-title":"Вакансія"
+  }
+ },
+"gallery-block":{
+  "head": {
+    "title": "Gallery"
+  },
+  "header": {
+    "nav-items": [
+      {
+        "nav-item-text": "Головна"
+      },
+      {
+        "nav-item-text": "Про школу"
+      },
+      {
+      
+        "nav-item-text": "Послуги"
+      },
+      {
+        "nav-item-text": "Педагоги"
+      },
+      {
+        "current": true,
+        "nav-item-text": "Новини"
+      },
+      {
+        "nav-item-text": "Контакти"
+      }
+    ]
+  },
+  "gallery-carousel": {
+    "about-title": "Галерея",
+    "data-about-title": "Галерея",
+    "gallery-btn":"Побачити більше",
+    "slides": [
+      {
+        "slide-name-1": "gallery-item-1",
+        "slide-name-2": "gallery-item-2",
+        "slide-name-3": "gallery-item-3",
+        "slide-name-4": "gallery-item-4",
+        "slide-name-5": "gallery-item-5",
+        "slide-name-6": "gallery-item-6"
+      },
+      {
+        "slide-name-1": "gallery-item-1",
+        "slide-name-2": "gallery-item-2",
+        "slide-name-3": "gallery-item-3",
+        "slide-name-4": "gallery-item-4",
+        "slide-name-5": "gallery-item-5",
+        "slide-name-6": "gallery-item-6"
+      },
+      {
+        "slide-name-1": "gallery-item-1",
+        "slide-name-2": "gallery-item-2",
+        "slide-name-3": "gallery-item-3",
+        "slide-name-4": "gallery-item-4",
+        "slide-name-5": "gallery-item-5",
+        "slide-name-6": "gallery-item-6"
+      }
+  ],
+  "slides-min": [
+    {
+      "slide-name": "gallery-item-1"
+    },
+    {
+      "slide-name": "gallery-item-2"
+    },
+    {
+      "slide-name": "gallery-item-3"
+    },
+    {
+      "slide-name": "gallery-item-4"
+    },
+    {
+      "slide-name": "gallery-item-5"
+    },
+    {
+      "slide-name": "gallery-item-6"
+    }
+  ]
+  },
+  "schools": {
+    "about-title": "Напрямки",
+    "data-about-title": "Напрямки"
+  }, 
+  "contacts": {
+    "about-title":"Контакти",
+    "data-contact-title":"Контакти"
+  },
+  "foot": {
+    "vendor-scripts": {
+      "jquery": true,
+      "slick-slider": true,
+      "aos": false,
+      "sort-table": true
+    }
+  } 
+},
+
+"gallery-page": {
+  "head": {
+    "title": "Gallery"
+  },
+  "header": {
+    "nav-items": [
+      {
+        "nav-item-text": "Головна"
+      },
+      {
+        "nav-item-text": "Про школу"
+      },
+      {
+      
+        "nav-item-text": "Послуги"
+      },
+      {
+        "nav-item-text": "Педагоги"
+      },
+      {
+        
+        "nav-item-text": "Новини"
+      },
+      {
+        "nav-item-text": "Контакти"
+      }
+    ]
+  },
+
+  "gallery-categories": {
+    "about-title": "Галерея",
+    "data-about-title": "Галерея"
+  },
+
+  "schools": {
+    "about-title": "Напрямки",
+    "data-about-title": "Напрямки"
+  },
+
+  "contacts": {
+    "about-title":"Контакти",
+    "data-contact-title":"Контакти"
+  },
+  "foot": {
+    "vendor-scripts": {
+      "jquery": true,
+      "slick-slider": true,
+      "aos": false,
+      "sort-table": true,
+      "bootstrap": true
+    }
   }
 
- 
+},
 
+"gallery-single": {
+  "head": {
+    "title": "Gallery"
+  },
+  "header": {
+    "nav-items": [
+      {
+        "nav-item-text": "Головна"
+      },
+      {
+        "nav-item-text": "Про школу"
+      },
+      {
+      
+        "nav-item-text": "Послуги"
+      },
+      {
+        "nav-item-text": "Педагоги"
+      },
+      {
+        
+        "nav-item-text": "Новини"
+      },
+      {
+        "nav-item-text": "Контакти"
+      }
+    ]
+  },
+  "gallery-carousel": {
+    "about-title": "Галерея",
+    "data-about-title": "Галерея",
+    
+    "slides": [
+      {
+        "slide-name-1": "gallery-item-1",
+        "slide-name-2": "gallery-item-2",
+        "slide-name-3": "gallery-item-3",
+        "slide-name-4": "gallery-item-4",
+        "slide-name-5": "gallery-item-5",
+        "slide-name-6": "gallery-item-6"
+      },
+      {
+        "slide-name-1": "gallery-item-1",
+        "slide-name-2": "gallery-item-2",
+        "slide-name-3": "gallery-item-3",
+        "slide-name-4": "gallery-item-4",
+        "slide-name-5": "gallery-item-5",
+        "slide-name-6": "gallery-item-6"
+      },
+      {
+        "slide-name-1": "gallery-item-1",
+        "slide-name-2": "gallery-item-2",
+        "slide-name-3": "gallery-item-3",
+        "slide-name-4": "gallery-item-4",
+        "slide-name-5": "gallery-item-5",
+        "slide-name-6": "gallery-item-6"
+      }
+  ],
+  "slides-min": [
+    {
+      "slide-name": "gallery-item-1"
+    },
+    {
+      "slide-name": "gallery-item-2"
+    },
+    {
+      "slide-name": "gallery-item-3"
+    },
+    {
+      "slide-name": "gallery-item-4"
+    },
+    {
+      "slide-name": "gallery-item-5"
+    },
+    {
+      "slide-name": "gallery-item-6"
+    }
+  ]
+  },
+  
+  
+  "schools": {
+    "about-title": "Напрямки",
+    "data-about-title": "Напрямки"
+  },
+
+  "contacts": {
+    "about-title":"Контакти",
+    "data-contact-title":"Контакти"
+  },
+  "foot": {
+    "vendor-scripts": {
+      "jquery": true,
+      "slick-slider": true,
+      "aos": false,
+      "sort-table": true,
+      "bootstrap": true
+    }
+  }
+
+}
 }
  

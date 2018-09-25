@@ -1,6 +1,6 @@
 {{#main-carousel}}
 <section class="main-carousel">
-  <div class="container">
+  <div class="container main-container">
     <div class="row no-gutters">
       <div class="col-12">
         <!-- Carousel -->
@@ -8,24 +8,7 @@
           {{#slides}}
           <!-- Slide -->
           <div class="main-carousel__slide main-carousel__slide_one main-carousel__slide_one__white-text">
-            <div class="slide-outer" style="background-image: url(assets/img/{{slide-name}}.jpg);">
-              <div class="slide-inner">
-                  <div class="row">
-                  <div class="col-12 col-lg-7 offset-lg-1">
-                    <div class="main-carousel__slide__title-wrapper d-inline-block">
-                      <h2>{{slide-title}}</h2>
-                      <div class="description-wrapper mt-3 d-flex flex-column flex-lg-row justify-content-between w-100">
-                        <div class="btn-mdf">
-                          <a class="btn btn_slide-more btn_slide-more__main" href="#">{{slide-btn-text}}</a>
-                        </div>
-                        <div class="pos text-center text-lg-right">
-                          <span>{{slide-description}}</span>
-                        </div> 
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="slide-outer" style="background-image: url({{slide-url}});">
             </div>
           </div>
           <!-- /Slide -->

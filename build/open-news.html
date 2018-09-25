@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/vendors/slick.css">
     <link rel="stylesheet" href="assets/css/vendors/slick-theme.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
     <link rel="stylesheet" href="assets/css/style.min.css">
 </head>
 
@@ -29,35 +32,47 @@
                                     <li>
                                         <a href="#">
                                             Головна
+
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
                                             Про школу
+
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
                                             Послуги
+
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
                                             Педагоги
+
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" class="current">
                                             Новини
+
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
                                             Контакти
+
                                         </a>
                                     </li>
                                 </ul>
+                                <div class="social-items-menu">
+                                    <a href="#" class="fb">Facebook</a>
+                                    <a href="#" class="instagram">Instagram</a>
+                                </div>
                             </nav>
+
+
                             <a href="#" class="burger-button">
                                 <span></span>
                             </a>
@@ -68,7 +83,7 @@
         </div>
     </header>
     <section class="main-carousel">
-        <div class="container">
+        <div class="container main-container">
             <div class="row no-gutters">
                 <div class="col-12">
                     <!-- Carousel -->
@@ -85,12 +100,12 @@
         </div>
     </section>
     <section class="content-block">
-        <div class="container">
+        <div class="container main-container">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-10">
                     <div class="news">
-                        <div class="title-news">
-                            <div data-parent="Новини" class="txt-shadow">
+                        <div class="title-news ">
+                            <div data-parent="" class="txt-shadow txt-feed">
                                 <h2>
                                     Українські фестивалі 2018, які не можна пропустити
                                 </h2>
@@ -138,18 +153,21 @@
                                 </p>
                             </div>
                         </div>
+                        <div class="data-fest text-right">
+                            <p>02.06.2018</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="content-block ">
-        <div class="container">
+        <div class="container main-container">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-10">
                     <div class="news">
                         <div class="section-title">
-                            <div data-parent="Інші новини" class="txt-shadow">
+                            <div data-parent="Інші новини" class="txt-shadow txt-feed">
                                 <h2>
                                     Інші новини
                                 </h2>
@@ -263,8 +281,8 @@
                 <div class="col-12 col-lg-10">
                     <div class="row">
                         <div class="col-12 col-md-4">
-                            <div class="section-title text-left">
-                                <div data-about-title="" class="txt-shadow txt-shadow_left ">
+                            <div class="section-title text-left ">
+                                <div data-parent="Контакти" class="txt-shadow txt-shadow_contact">
                                     <h2>
                                         Контакти
                                     </h2>
@@ -298,9 +316,11 @@
     <!-- Slick slider -->
     <script src="assets/js/vendors/slick.min.js"></script>
     <script src="assets/js/vendors/jquery.tablesorter.js"></script>
+
     <!-- Custom script -->
     <script src="assets/js/script.min.js"></script>
     <!-- Sliders -->
+
     <script>
         var mainCarousel = $('*[data-js="main-carousel"]').length;
         var teacherCarousel = $('*[data-js="teachers-carousel"]').length;
@@ -418,6 +438,7 @@
             });
         }
     </script>
+
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxkUUlSbRNNNbTvIKVa1tLmbhQfrgq45g&callback=initMap">
 
     </script>

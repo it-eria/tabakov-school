@@ -20,10 +20,15 @@
 {{#sort-table}}
 <script src="assets/js/vendors/jquery.tablesorter.js"></script>
 {{/sort-table}}
+
+{{#bootstrap}}
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+{{/bootstrap}}
 {{/vendor-scripts}}
 <!-- Custom script -->
 <script src="assets/js/script.min.js"></script>
 <!-- Sliders -->
+
 <script>
   var mainCarousel = $('*[data-js="main-carousel"]').length;
   var teacherCarousel = $('*[data-js="teachers-carousel"]').length;
@@ -150,6 +155,7 @@
     });
   }
 </script>
+
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxkUUlSbRNNNbTvIKVa1tLmbhQfrgq45g&callback=initMap">
 
 </script>
