@@ -1213,7 +1213,7 @@
   cursor: default;
   border-radius: 20px;
   height: auto;
-  padding: 0px 20px 30px 0;
+  padding: 0px 20px 20px 0;
 }
 
 .view-first img {
@@ -1779,326 +1779,7 @@ select:focus {
   color: #2a3037;
 }
 
-@media screen and (max-width:992px) {
-  .price__main__content {
-    padding-top: 30px !important;
-  }
-  .price__main__content__item__price-information {
-    padding: 20px 0 20px 0;
-  }
-  .shadow-price {
-    margin: 0 0 20px 0;
-  }
-  .price__main__content__item__about ul li {
-    font-size: 13px !important;
-    padding-bottom: 15px !important;
-  }
-  .price__main__content__item__btn a {
-    font-size: 13px !important;
-  }
-  .teacher-block {
-    height: 385px !important;
-    transition: all .3s ease-in-out !important;
-  }
-  .main-carousel__slide .slide-inner .btn_slide-more {
-    display: none;
-  }
-  .concert-section__main__wrapper__info:before {
-    display: none;
-  }
-  .concert-section__main__wrapper__info:after {
-    display: none;
-  }
-  .concert-section__text-shadow:before {
-    display: none;
-  }
-  .section-title {
-    margin: 0 0 20px 0;
-  }
-  .text-about p {
-    font-size: 13px;
-  }
-  .content-block .container .btn-pos-min {
-    margin: 20px 0;
-  }
-  .btn_slide-more {
-    font-size: 13px;
-  }
-  .directions__main {
-    padding: 30px 0 0 0;
-  }
-  .directions__main__title-default h2 {
-    font-size: 30px;
-  }
-  .directions__main__title-default.text-shadow:before {
-    font-size: 30px;
-  }
-  .directions__main__title-default.text-shadow {
-    padding-bottom: 30px;
-  }
-  .view h2 {
-    font-size: 18px;
-  }
-  .view p {
-    font-size: 15px;
-  }
-  .view-first:hover a.info {
-    transition-delay: .2s;
-    width: 100%;
-    max-width: 220px;
-    margin-bottom: 30px;
-    font-size: 13px;
-  }
 
-  .view {
-    padding-bottom: 45px;
-  }
-  .view img {
-    padding: 0;
-  }
-  .mask {
-    height: 100%;
-  }
-  .view .content,
-  .view .mask {
-    height: calc(100% - 45px);
-  }
-  .view:hover .title-block h2 {
-    font-family: OswaldLight;
-  }
-  .advantages__main {
-    padding: 0;
-  }
-  .advantages__main__title-default-text-shadow h2 {
-    font-size: 30px;
-  }
-  .advantages__main__title-default-text-shadow:before {
-    font-size: 30px;
-    display: none;
-  }
-  .advantages__main__block__wrapper__item__main__content__description p {
-    font-size: 13px;
-  }
-  .advantages__main__block__wrapper__item__main__content h4 {
-    font-size: 20px;
-  }
-  .txt-shadow .txt-teachers h2 {
-    font-size: 30px;
-  }
-  .teachers-carousel__slide .info-section h4 {
-    font-size: 1.05rem;
-  }
-  .teachers-carousel__slide .info-section .btn_slide-more {
-    margin: 10px !important;
-  }
-  .teachers-carousel__slide .info-section p {
-    font-size: 1.05rem;
-  }
-  .txt-teachers:before {
-    font-size: 30px;
-    display: none;
-  }
-  .txt-shadow .txt-feed:before {
-    font-size: 30px;
-  }
-  .txt-shadow .txt-feed h2 {
-    font-size: 1.55rem;
-  }
-  .feed-carousel__slide .info-section p {
-    font-size: 13px;
-  }
-  .feed-carousel__slide .info-section span {
-    font-size: 13px;
-  }
-  .feed-carousel__slide .info-section .btn_slide-more {
-    margin: 10px;
-  }
-  .concert-section__text-shadow:before {
-    font-size: 30px;
-    display: none;
-  }
-  .concert-section__text-shadow h2 {
-    font-size: 30px;
-    margin: 0 0 15px 0;
-  }
-  .concert-section__main {
-    padding: 20px 0 0 0;
-  }
-  .testimonials_block__main {
-    padding-top: 50px;
-  }
-  .text-shadow:before {
-    font-size: 30px;
-    display: none;
-  }
-  .testimonials h2 {
-    padding-bottom: 20px;
-    font-size: 30px;
-  }
-  .testimonials_block__main__slider_testimonials__testimonials_main {
-    flex-wrap: wrap;
-  }
-  .prew-arrow {
-    display: none !important;
-  }
-  .next-arrow {
-    display: none !important;
-  }
-  .testimonials_block__main__slider_testimonials__testimonials_main {
-    margin: 0 0 20px 0;
-  }
-  .testimonials_block__main__slider_testimonials__testimonials_main__testimonials_info_content p {
-    font-size: 13px;
-    text-align: center;
-  }
-  .testimonials_block__main__slider_testimonials__testimonials_main__testimonials_info_content h2 {
-    font-size: 20px;
-    color: #7ebf67;
-    text-align: center;
-    padding: 20px 0;
-  }
-  .testimonials_block__main__slider_testimonials__testimonials_main__testimonials_info_content {
-    padding: 0;
-  }
-  .section-title h2 {
-    font-size: 30px !important;
-    font-family: $font-4;
-  }
-  .txt-shadow:before {
-    font-size: 30px;
-  }
-  .content-block .information-items a {
-    padding-top: 15px;
-    font-size: 13px;
-  }
-  .content-block .social-items a {
-    padding-top: 10px;
-    font-size: 13px;
-  }
-  .content-block .information-items .mail {
-    padding-left: 30px;
-    padding-bottom: 10px;
-  }
-  .content-block .social-items {
-    padding: 15px 0 0 0;
-    margin-bottom: 30px;
-  }
-  .content-block .social-items .instagram {
-    margin-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-  }
-  .content-block #map {
-    margin: 0;
-  }
-  .slider-arr_f {
-    display: none !important;
-  }
-  .gallery:before{
-    display: none !important;
-  }
-  .slider-arr_next {
-    display: none !important;
-  }
-  .schedule-table:before {
-    display: none !important;
-  }
-  .slider-arr_prev {
-    display: none !important;
-  }
-  .concert-section__main__wrapper__info p {
-    font-size: 13px;
-    padding-top: 10px;
-  }
-  .content-block .information-items .number {
-    padding-bottom: 10px;
-    padding-left: 30px;
-  }
-  .content-block .information-items .location {
-    padding-bottom: 10px;
-    padding-left: 30px;
-  }
-  .content-block .social-items .fb {
-    padding-bottom: 10px;
-    padding-left: 30px;
-  }
-  .footer p {
-    font-size: 10px;
-  }
-  .main-carousel__slide .slide-inner .btn_slide-more {
-    margin: 0 0 10px 0;
-  }
-  .feed-carousel__slide .info-section h4 {
-    font-size: 1.05rem;
-  }
-  .txt-shadow_art:before {
-    display: none !important;
-  }
-  .directions__main__title-default:before {
-    display: none !important;
-  }
-  .txt-teachers:before {
-    display: none !important;
-  }
-  .txt-feed:before {
-    display: none !important;
-  }
-  .txt-shadow_contact:before {
-    display: none !important;
-  }
-  .txt-shadow-reasons:before {
-    display: none !important;
-  }
-  .achievement {
-    &__main {
-      padding: 0 !important;
-    }
-  }
-  .vocal-button {
-    margin-bottom: 20px;
-  }
-  .vocal-button a {
-    font-size: 13px;
-  }
-  .accordion-container h2 {
-    font-size: 16px !important;
-  }
-  .accordion-container li {
-    font-size: 13px !important;
-  }
-  .accordion-header {
-    min-height: 35px !important;
-  }
-  .price {
-    &__main {
-      &__title {
-        padding: 0 !important;
-      }
-    }
-  }
-  .teaching-program {
-    &__main {
-      padding: 0 0 40px 0 !important;
-    }
-  }
-  .accordion-content {
-    margin: 0 !important;
-  }
-  .price__main__content__item__title h2{
-    font-size: 16px !important;
-  }
-
-  .txt-vacancy:before{
-    display: none !important;
-  }
-  .accordion-header{
-    font-size: 0.5em !important ;
-  }
-  .vocal-accordion .accordion-header{
-   font-family:$font-4 ;
-    font-size: 0.5em !important ;
-  }
-}
 
 @media screen and (min-width:992px) and(max-width:1200px) {
   .view h2 {
@@ -2251,7 +1932,7 @@ select:focus {
 }
 
 .teacher-block {
-  height: 465px;
+  height: auto;
   transition: all .3s ease-in-out;
 }
 
@@ -3047,7 +2728,10 @@ $color: transperent;
 @media screen and (min-width:320px) and (max-width:500px){
   .view p {
     font-size: 13px;
-    padding: 75px 20px 0;
+    padding: 65px 0px 0;
+}
+.title-block{
+  min-height: 47px;
 }
 }
 .header  .instagram{
@@ -3074,11 +2758,12 @@ $color: transperent;
   color: #000;
 }
 .header__main-nav{
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+
 .social-items-menu{
   padding-left: 25px;
 }
@@ -3188,6 +2873,335 @@ $color: transperent;
 
 .pt-150px {
   padding-top: 150px;
+}
+
+@media screen and (max-width:992px) {
+  .price__main__content {
+    padding-top: 30px !important;
+  }
+  .price__main__content__item__price-information {
+    padding: 20px 0 20px 0;
+  }
+  .shadow-price {
+    margin: 0 0 20px 0;
+  }
+  .price__main__content__item__about ul li {
+    font-size: 13px !important;
+    padding-bottom: 15px !important;
+  }
+  .price__main__content__item__btn a {
+    font-size: 13px !important;
+  }
+  .teacher-block {
+    height: auto;
+    transition: all .3s ease-in-out !important;
+  }
+  .main-carousel__slide .slide-inner .btn_slide-more {
+    display: none;
+  }
+  .concert-section__main__wrapper__info:before {
+    display: none;
+  }
+  .concert-section__main__wrapper__info:after {
+    display: none;
+  }
+  .concert-section__text-shadow:before {
+    display: none;
+  }
+  .section-title {
+    margin: 0 0 20px 0;
+  }
+  .text-about p {
+    font-size: 13px;
+  }
+  .content-block .container .btn-pos-min {
+    margin: 20px 0;
+  }
+  .btn_slide-more {
+    font-size: 13px;
+  }
+  .directions__main {
+    padding: 30px 0 0 0;
+  }
+  .directions__main__title-default h2 {
+    font-size: 30px;
+  }
+  .directions__main__title-default.text-shadow:before {
+    font-size: 30px;
+  }
+  .directions__main__title-default.text-shadow {
+    padding-bottom: 30px;
+  }
+  .view h2 {
+    font-size: 18px;
+  }
+  .view p {
+    font-size: 15px;
+  }
+  .view-first:hover a.info {
+    transition-delay: .2s;
+    width: 100%;
+    max-width: 220px;
+    margin-bottom: 30px;
+    font-size: 13px;
+  }
+
+  .view {
+    padding-bottom: 45px;
+  }
+  .view img {
+    padding: 0;
+  }
+  .mask {
+    height: 100%;
+  }
+  .view .content,
+  .view .mask {
+    height: calc(100% - 45px);
+  }
+  .view:hover .title-block h2 {
+    font-family: OswaldLight;
+  }
+  .advantages__main {
+    padding: 0;
+  }
+  .advantages__main__title-default-text-shadow h2 {
+    font-size: 30px;
+  }
+  .advantages__main__title-default-text-shadow:before {
+    font-size: 30px;
+    display: none;
+  }
+  .advantages__main__block__wrapper__item__main__content__description p {
+    font-size: 13px;
+  }
+  .advantages__main__block__wrapper__item__main__content h4 {
+    font-size: 20px;
+  }
+  .txt-shadow .txt-teachers h2 {
+    font-size: 30px;
+  }
+  .teachers-carousel__slide .info-section h4 {
+    font-size: 1.05rem;
+  }
+  .teachers-carousel__slide .info-section .btn_slide-more {
+    margin: 10px !important;
+  }
+  .teachers-carousel__slide .info-section p {
+    font-size: 1.05rem;
+  }
+  .txt-teachers:before {
+    font-size: 30px;
+    display: none;
+  }
+  .txt-shadow .txt-feed:before {
+    font-size: 30px;
+  }
+  .txt-shadow .txt-feed h2 {
+    font-size: 1.55rem;
+  }
+  .feed-carousel__slide .info-section p {
+    font-size: 13px;
+  }
+  .feed-carousel__slide .info-section span {
+    font-size: 13px;
+  }
+  .feed-carousel__slide .info-section .btn_slide-more {
+    margin: 10px;
+  }
+  .concert-section__text-shadow:before {
+    font-size: 30px;
+    display: none;
+  }
+  .concert-section__text-shadow h2 {
+    font-size: 30px;
+    margin: 0 0 15px 0;
+  }
+  .concert-section__main {
+    padding: 20px 0 0 0;
+  }
+  .testimonials_block__main {
+    padding-top: 50px;
+  }
+  .text-shadow:before {
+    font-size: 30px;
+    display: none;
+  }
+  .testimonials h2 {
+    padding-bottom: 20px;
+    font-size: 30px;
+  }
+  .testimonials_block__main__slider_testimonials__testimonials_main {
+    flex-wrap: wrap;
+  }
+  .prew-arrow {
+    display: none !important;
+  }
+  .next-arrow {
+    display: none !important;
+  }
+  .testimonials_block__main__slider_testimonials__testimonials_main {
+    margin: 0 0 20px 0;
+  }
+  .testimonials_block__main__slider_testimonials__testimonials_main__testimonials_info_content p {
+    font-size: 13px;
+    text-align: center;
+  }
+  .testimonials_block__main__slider_testimonials__testimonials_main__testimonials_info_content h2 {
+    font-size: 20px;
+    color: #7ebf67;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .testimonials_block__main__slider_testimonials__testimonials_main__testimonials_info_content {
+    padding: 0;
+  }
+  .section-title h2 {
+    font-size: 30px !important;
+    font-family: $font-4;
+  }
+  .txt-shadow:before {
+    font-size: 30px;
+  }
+  .content-block .information-items a {
+    padding-top: 15px;
+    font-size: 13px;
+  }
+  .content-block .social-items a {
+    padding-top: 10px;
+    font-size: 13px;
+  }
+  .content-block .information-items .mail {
+    padding-left: 30px;
+    padding-bottom: 10px;
+  }
+  .content-block .social-items {
+    padding: 15px 0 0 0;
+    margin-bottom: 30px;
+  }
+  .content-block .social-items .instagram {
+    margin-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+  }
+  .content-block #map {
+    margin: 0;
+  }
+  .slider-arr_f {
+    display: none !important;
+  }
+  .gallery:before{
+    display: none !important;
+  }
+  .slider-arr_next {
+    display: none !important;
+  }
+  .schedule-table:before {
+    display: none !important;
+  }
+  .slider-arr_prev {
+    display: none !important;
+  }
+  .concert-section__main__wrapper__info p {
+    font-size: 13px;
+    padding-top: 10px;
+  }
+  .content-block .information-items .number {
+    padding-bottom: 10px;
+    padding-left: 30px;
+  }
+  .content-block .information-items .location {
+    padding-bottom: 10px;
+    padding-left: 30px;
+  }
+  .content-block .social-items .fb {
+    padding-bottom: 10px;
+    padding-left: 30px;
+  }
+  .footer p {
+    font-size: 10px;
+  }
+  .main-carousel__slide .slide-inner .btn_slide-more {
+    margin: 0 0 10px 0;
+  }
+  .feed-carousel__slide .info-section h4 {
+    font-size: 1.05rem;
+  }
+  .txt-shadow_art:before {
+    display: none !important;
+  }
+  .directions__main__title-default:before {
+    display: none !important;
+  }
+  .txt-teachers:before {
+    display: none !important;
+  }
+  .txt-feed:before {
+    display: none !important;
+  }
+  .txt-shadow_contact:before {
+    display: none !important;
+  }
+  .txt-shadow-reasons:before {
+    display: none !important;
+  }
+  .achievement {
+    &__main {
+      padding: 0 !important;
+    }
+  }
+  .vocal-button {
+    margin-bottom: 20px;
+  }
+  .vocal-button a {
+    font-size: 13px;
+  }
+  .accordion-container h2 {
+    font-size: 16px !important;
+  }
+  .accordion-container li {
+    font-size: 13px !important;
+  }
+  .accordion-header {
+    min-height: 35px !important;
+  }
+  .price {
+    &__main {
+      &__title {
+        padding: 0 !important;
+      }
+    }
+  }
+  .teaching-program {
+    &__main {
+      padding: 0 0 40px 0 !important;
+    }
+  }
+  .accordion-content {
+    margin: 0 !important;
+  }
+  .price__main__content__item__title h2{
+    font-size: 16px !important;
+  }
+
+  .txt-vacancy:before{
+    display: none !important;
+  }
+  .accordion-header{
+    font-size: 0.5em !important ;
+  }
+  .vocal-accordion .accordion-header{
+   font-family:$font-4 ;
+    font-size: 0.5em !important ;
+  }
+  .header__main-nav{
+    display: none;
+    
+  }
+  .txt-shadow .test:before{
+    display: none;
+  }
+  
 }
 /* -------------------------------------------------------------------------------------------------- */
 
