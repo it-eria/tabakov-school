@@ -39,7 +39,7 @@
       "slides": [
         {
           "slide-name": "slide-1",
-          "slide-title": " Total art school",
+          "slide-title": " Творча школа Павла Табакова",
           "slide-btn-text": "Записатись на заняття"
         },
         {
@@ -60,8 +60,8 @@
       ]
     },
     "about": {
-      "title": "Total Art School",
-      "concert-title-data": "Total Art School",
+      "title": "У творчій школі Павла Табакова",
+      "concert-title-data": "",
       "slide-btn-text": "Дізнатись більше",
       "paragraphs": [
         {
@@ -226,8 +226,8 @@
     ]
   },
   "about": {
-    "title": "Вокал у Total Art School",
-    "concert-title-data": "Total Art School",
+    "title": "Вокал у творчій школі Павла Табакова",
+    "concert-title-data": "",
     "slide-btn-text": "Записатись на заняття",
    
     "paragraphs": [
@@ -414,9 +414,9 @@
     ]
     },
     "about": {
-      "title": "Total Art School",
-      "concert-title-data": "Total Art School",
-      "slide-btn-text": "Дізнатись більше",
+      "title": "Творча школа Павла Табакова",
+      "concert-title-data": "",
+      "slide-btn-text": "",
       "paragraphs": [
         {
         "text-about": "Це креативна школа для творчих натур, яким пророковано стати видатними співаками, танцюристами, хореографами та акторами."
@@ -435,10 +435,10 @@
      
     "slides": [
       {
-        "slide-description": "Total art school",
+        
         "slide-url": "assets/img/slide-1.jpg",
-        "slide-title": "Школа вокалу",
-        "slide-btn-text": "Записатись на заняття"
+        "slide-title": "Про нас"
+        
       }
     ]
     },
@@ -717,7 +717,7 @@
       ]
     },
     "news-teasers": {
-      "additional-classes": "pt-50",
+      "additional-classes": "",
       "data-feed-title":"Новини",
       "about-title":"Новини",
       "slides": [

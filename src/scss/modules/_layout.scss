@@ -145,10 +145,10 @@
   &__slide {
     .slide-outer {
       position: relative;
-      padding-top: 54.02%;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: 50% 50%;
+    padding-top: 67%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% -50%;
     }
     .slide-inner {
       width: 100%;
@@ -160,22 +160,26 @@
       h2 {
         text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.22);
         font-family: $font-3;
-        font-size: 5.5rem;
+        font-size: 55px;
         margin-bottom: 7.5rem;
+        color: #212529;
       }
     }
   }
 }
 
 .btn_slide-more {
-  margin-top: 30px
+  margin-top: 0;
+}
+.text-about{
+  padding-bottom: 1rem;
 }
 
 @media screen and (max-width: 992px) {
   .main-carousel {
     &__slide {
       .slide-outer {
-        padding-top: 5rem;
+        padding-top: 10rem;
         padding-bottom: 5rem;
       }
       .slide-inner {
@@ -201,7 +205,7 @@
     &__slide {
       .slide-inner {
         h2 {
-          font-size: 4rem;
+          font-size: 55px;
           margin-bottom: 2rem;
         }
       }
@@ -800,7 +804,9 @@
     .slide-inner {
       .main-carousel__slide__title-wrapper {
         margin-bottom: 9rem;
-        display: block;
+    width: 100%;
+    display: block;
+    max-width: 60%;
         span {
           display: block;
           font-family: $font-4;
@@ -809,6 +815,9 @@
         h2 {
           display: inline-block;
           margin-bottom: 0.4rem;
+          text-shadow: 0 5px 5px rgba(0,0,0,.22);
+          font-family: OswaldBold;
+          font-size: 55px;
         }
       }
     }
@@ -987,8 +996,13 @@
 }
 
 .about-img {
+  border-radius: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   img {
     box-shadow: 0px 5px 51px 0px rgba(0, 0, 0, 0.2);
+    
   }
 }
 
@@ -1153,7 +1167,7 @@
   padding: 7px 14px;
   background: transparent;
   color: #fff;
-  font-family: Raleway, serif;
+  font-family: BloggerSans;
   border-radius: 20px;
   border: 3px solid #7ebf67;
 }
@@ -1293,7 +1307,7 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #b406f5;
+  background-color: #8666d5;
   top: 0;
   position: absolute;
   border-radius: 20px 20px 0 0;
@@ -1304,7 +1318,7 @@
 }
 
 .view:nth-child(3) .title-block {
-  background-color: #ff004e;
+  background-color: #FC49AF;
 }
 
 .view:nth-child(4) .title-block {
@@ -1315,13 +1329,13 @@
 }
 
 .view:nth-child(1) a {
-  border: 3px solid #b406f5;
-  background-color: #b406f5;
+  border: 3px solid #8666d5;
+  background-color: #8666d5;
 }
 
 .view:nth-child(1) a:hover {
-  background-color: #b406f5;
-  border: 3px solid #b406f5;
+  background-color: #8666d5;
+  border: 3px solid #8666d5;
 }
 
 .view:nth-child(2) a {
@@ -1335,13 +1349,13 @@
 }
 
 .view:nth-child(3) a {
-  border: 3px solid #ff004e;
-  background-color: #ff004e;
+  border: 3px solid #FC49AF;
+  background-color: #FC49AF;
 }
 
 .view:nth-child(3) a:hover {
-  background-color: #ff004e;
-  border: 3px solid #ff004e;
+  background-color: #FC49AF;
+  border: 3px solid #FC49AF;
 }
 
 .view:nth-child(4) a {
@@ -1451,11 +1465,11 @@
 }
 
 .advantages__main__block__wrapper__item:nth-child(1) .advantages__main__block__wrapper__item__main__content h4 {
-  color: #ff004e !important;
+  color: #fe47af !important;
 }
 
 .advantages__main__block__wrapper__item:nth-child(2) .advantages__main__block__wrapper__item__main__content h4 {
-  color: #604d8d !important;
+  color: #8666D5 !important;
 }
 
 .advantages__main__block__wrapper__item:nth-child(3) .advantages__main__block__wrapper__item__main__content h4 {
@@ -1948,15 +1962,16 @@ select:focus {
 }
 
 .violet {
-  border: 3px solid #5f4d8d;
+  border: 3px solid #8666D5;
   border-radius: 60px 60px;
   color: #000;
   outline: none;
   transition: all .3s ease-in-out;
-  background-color: #5f4d8d;
+  background-color: #8666D5;
   color: #fff;
   &:hover {
-    background-color: rgba(95, 77, 141, .9);
+    background-color: #8666D5;
+   
   }
 }
 
@@ -1971,7 +1986,18 @@ select:focus {
   }
 }
 
-
+.yellow {
+  border: 3px solid #fed202;
+  border-radius: 60px 60px;
+  color: #000;
+  outline: none;
+  transition: all .3s ease-in-out;
+  background-color: #fed202;
+  color: #fff;
+  &:hover {
+    background-color: #fed202;
+  }
+}
 
 /*curent-teacher-styles*/
 
@@ -2046,7 +2072,6 @@ $color: transperent;
   font-family: Roboto, sans-serif;
   line-height: 1.5;
   font-weight: 300;
-  border: 3px solid #9e60a5;
   border-radius: 10px;
   border-top: none;
   color: #888;
@@ -2126,9 +2151,13 @@ $color: transperent;
   background-color: #73c3ae;
   color: #fff;
 }
-
+.tab_content{
+  border: 3px solid rgba(136, 136, 136, .5);
+  padding: 0;
+  border-radius: 0 0 15px 15px;
+}
 .achievement {
-  display: block;
+  display: none;
   position: relative;
   width: 100%;
   height: auto;
@@ -2233,13 +2262,14 @@ $color: transperent;
   width: auto;
   border-width: 3px;
   border-radius: 60px 60px;
-  padding: 5px 25px;
+  padding: 8px 38px;
   font-size: 16px;
   text-decoration: none;
   margin: 20px;
-  color: #5f4d8d;
+  color: #fff;
   position: relative;
   display: inline-block;
+  background-color: #8666d5 !important;
 }
 
 .gallery-btn:active {
@@ -2287,6 +2317,19 @@ $color: transperent;
       justify-content: center;
     }
   }
+}
+
+
+.author-date-block{
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-bottom: 20px;
+}
+.author-fest{
+  font-size: 1rem;
+    font-family: BloggerSans;
+    line-height: normal;
 }
 
 /*Програма навчання*/
@@ -2748,10 +2791,16 @@ $color: transperent;
   color: #000; 
   font-family: BloggerSans;
   font-size: 1rem;
+  background-color: #fff;
+}
+.logo-image{
+  width: 100%;
+  height: auto;
+  max-width: 57px;
 }
 .header  .fb{
   margin-top: 22px;
-  padding-left: 20px;
+  padding-left: 35px;
   background-repeat: no-repeat;
   background-image: url(../img/fb.png);
   background-position: 0 50%;
@@ -2816,7 +2865,7 @@ $color: transperent;
   color: #5f4d8d;
   font-family: OswaldLight;
   font-size: 24px;
-  border: none;
+  border: none !important;
   transition: all .2s ease-in-out;
   font-weight: 500;
 
@@ -2873,6 +2922,11 @@ $color: transperent;
 
 .pt-150px {
   padding-top: 150px;
+}
+
+.nav-item :active a{
+  color: #fff;
+    background-color: #5f4d8d;
 }
 
 @media screen and (max-width:992px) {

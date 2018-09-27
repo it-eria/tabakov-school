@@ -537,6 +537,7 @@ p {
 .txt-shadow_art .txt-shadow {
   display: inline-block;
   position: relative;
+  width: 100%;
   &:before {
     content: attr(concert-title-data);
     display: flex;
