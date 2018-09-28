@@ -217,6 +217,7 @@ p {
     color: #000000;
     font-family: $font-1;
     font-size: 16px;
+   
     transition: all .3s ease-in-out;
     &:hover {
       background-color: $color-2;
@@ -415,10 +416,6 @@ p {
   }
 }
 
-
-
-
-
 .txt-shadow .txt-vacancy {
   display: inline-block;
   position: relative;
@@ -456,12 +453,6 @@ p {
     }
   }
 }
-
-
-
-
-
-
 
 .directions__main__title-default.text-shadow {
   display: inline-block;

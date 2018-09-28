@@ -3,31 +3,23 @@
   <div class="container main-container">
     <div class="row no-gutters">
       <div class="col-12">
-        <!-- Carousel -->
         <div data-js="main-carousel">
           {{#slides}}
-          <!-- Slide -->
           <div class="main-carousel__slide main-carousel__slide_one main-carousel__slide_one__white-text">
             <div class="slide-outer" style="background-image: url({{slide-url}});">
-
-                <div class="slide-inner">
-                    <div class="row">
-                      <div class="col-12 col-lg-7 offset-lg-1">
-                        <div class="main-carousel__slide__title-wrapper d-inline-block">
-                          <h2>{{slide-title}}</h2>
-                          
-                        </div>
-                      </div>
+              <div class="slide-inner">
+                <div class="row">
+                  <div class="col-12 col-lg-7 offset-lg-1">
+                    <div class="main-carousel__slide__title-wrapper d-inline-block">
+                      <h2>{{slide-title}}</h2>
                     </div>
                   </div>
-
+                </div>
+              </div>
             </div>
           </div>
-          <!-- /Slide -->
           {{/slides}}
         </div>
-        <!-- /Carousel -->
-        <!-- Dots -->
         <div class="dots position-absolute w-100 d-none">
           <div class="row">
             <div class="col-12 col-lg-6 text-center">
@@ -35,7 +27,6 @@
             </div>
           </div>
         </div>
-        <!-- /Dots -->
       </div>
     </div>
   </div>

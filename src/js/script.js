@@ -78,13 +78,6 @@ $(document).ready(function() {
 });
 
 
-
-
-
-
-
-
-
 var accordion = (function(){
   
   var $accordion = $('.js-accordion');
