@@ -17,7 +17,7 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" style="background-color: #fff;">
                 <div class="col-12 col-lg-10">
                     <div class="row align-items-center">
                         <div class="col-9 col-sm-4 col-md-3 col-lg-2">
@@ -90,7 +90,7 @@
                 <div class="col-12 col-lg-10">
                     <div class="gallery-carousel d-none d-lg-block" data-js="gallery-carousel">
                         <div class="gallery-carousel__slide">
-                            <div class="row no-gutters">
+                            <div class="row no-gutters gallery-title">
                                 <div class="col-12 col-lg-5 p-2 text-left">
                                     <a href="#" class="slide-outer d-block" style="background-image: url(assets/img/gallery-item-1.jpg);"></a>
                                     <h2>Наша подорож в Італію</h2>
@@ -110,7 +110,7 @@
                             </div>
                         </div>
                         <div class="gallery-carousel__slide">
-                            <div class="row no-gutters">
+                            <div class="row no-gutters gallery-title">
                                 <div class="col-12 col-lg-5 p-2 text-left">
                                     <a href="#" class="slide-outer d-block" style="background-image: url(assets/img/gallery-item-1.jpg);"></a>
                                     <h2>Наша подорож в Італію</h2>
@@ -130,7 +130,7 @@
                             </div>
                         </div>
                         <div class="gallery-carousel__slide">
-                            <div class="row no-gutters">
+                            <div class="row no-gutters gallery-title">
                                 <div class="col-12 col-lg-5 p-2 text-left">
                                     <a href="#" class="slide-outer d-block" style="background-image: url(assets/img/gallery-item-1.jpg);"></a>
                                     <h2>Наша подорож в Італію</h2>
@@ -196,8 +196,8 @@
                     </div>
                 </div>
                 <div class="col-12 text-center gallery-carousel-ctrl">
-                    <div class="dots-place dots-place_white d-none d-lg-block"></div>
-                    <div class="dots-place_m dots-place_white d-block d-lg-none"></div>
+                    <div class="dots-place dots-place_white d-none d-lg-none"></div>
+                    <div class="dots-place_m dots-place_white  d-lg-none"></div>
                 </div>
             </div>
         </div>
@@ -286,20 +286,21 @@
                 autoplay: false,
                 autoplaySpeed: 4000,
                 infinite: true,
-                arrows: true,
+                dots: false,
+                arrows: false,
                 prevArrow: "<a href=\"#\" class=\"slider-arr slider-arr_prev\"></a>",
                 nextArrow: "<a href=\"#\" class=\"slider-arr slider-arr_next\"></a>",
                 responsive: [{
                         breakpoint: 992,
                         settings: {
-                            dots: false,
+                            dots: true,
                             slidesToShow: 2
                         }
                     },
                     {
                         breakpoint: 768,
                         settings: {
-                            dots: false,
+                            dots: true,
                             slidesToShow: 1
                         }
                     }
@@ -315,14 +316,14 @@
                 autoplaySpeed: 4000,
                 infinite: true,
                 arrows: true,
-                dots: true,
+                dots: false,
                 appendDots: $('.feed-carousel-ctrl .dots-place'),
                 prevArrow: "<a href=\"#\" class=\"slider-arr slider-arr_prev slider-arr_f \"></a>",
                 nextArrow: "<a href=\"#\" class=\"slider-arr slider-arr_next slider-arr_f\"></a>",
                 responsive: [{
                     breakpoint: 768,
                     settings: {
-                        dots: false,
+                        dots: true,
                         slidesToShow: 1
                     }
                 }]

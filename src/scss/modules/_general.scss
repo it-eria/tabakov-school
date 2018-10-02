@@ -95,9 +95,10 @@ a {
 .dots-place_m {
   .slick-dots {
     position: relative;
-    bottom: 60px;
-    left: 75px;
+    bottom: 0;
+    left: 0;
     text-align: center;
+    background-color:transparent ;
     li {
       width: 8px;
       height: 8px;
@@ -112,7 +113,8 @@ a {
       }
       &.slick-active {
         button {
-          background-color: #468acf;
+          opacity: .75;
+          color: black;
         }
       }
     }
@@ -123,7 +125,9 @@ a {
     .slick-dots {
       li {
         button {
-          background-color: #fff;
+          opacity: .25;
+          color: black;
+         
         }
       }
     }

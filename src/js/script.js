@@ -51,7 +51,7 @@ $('.testimonials_block__main__slider_testimonials').slick({
   slidesToShow: 1,
   arrows: true,
   autoplay: true,
-  autoplaySpeed: 1000,
+  autoplaySpeed: 3000,
   prevArrow: '<img class="next-arrow" src="assets/img/slider-arr-left.png">',
   nextArrow: '<img class="prew-arrow" src="assets/img/slider-arr-right.png">',
 });

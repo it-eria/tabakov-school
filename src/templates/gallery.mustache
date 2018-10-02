@@ -17,7 +17,7 @@
         <div class="gallery-carousel d-none d-lg-block" data-js="gallery-carousel">
           {{#slides}}
           <div class="gallery-carousel__slide">
-            <div class="row no-gutters">
+            <div class="row no-gutters gallery-title">
               <div class="col-12 col-lg-5 p-2 text-left">
                 <a href="#" class="slide-outer d-block" style="background-image: url(assets/img/{{slide-name-1}}.jpg);"></a>
                 <h2>Наша подорож в Італію</h2>
@@ -51,8 +51,8 @@
         </div>
       </div>
       <div class="col-12 text-center gallery-carousel-ctrl">
-        <div class="dots-place dots-place_white d-none d-lg-block"></div>
-        <div class="dots-place_m dots-place_white d-block d-lg-none"></div>
+        <div class="dots-place dots-place_white d-none d-lg-none"></div>
+        <div class="dots-place_m dots-place_white  d-lg-none"></div>
       </div>
       {{#gallery-btn}}
       <div class="gallery-batton ">

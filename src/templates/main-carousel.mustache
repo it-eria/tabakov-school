@@ -14,7 +14,7 @@
                   <div class="col-12 col-lg-7 offset-lg-1">
                     <div class="main-carousel__slide__title-wrapper d-inline-block">
                       <h2>{{slide-title}}</h2>
-                      <div class="description-wrapper mt-3 d-flex flex-column flex-lg-row justify-content-between w-100">
+                      <div class="description-wrapper mt-3 d-flex flex-column-reverse flex-lg-column-reverse justify-content-between w-100">
                         <div class="btn-mdf">
                           <a class="btn btn_slide-more  violet" href="#">{{slide-btn-text}}</a>
                         </div>
@@ -31,14 +31,16 @@
           <!-- /Slide -->
           {{/slides}}
         </div>
-        <!-- /Carousel -->      
+        <!-- /Carousel -->
         <div class="dots position-absolute w-100">
           <div class="row">
             <div class="col-12 col-lg-6 text-center">
-              <div class="dots-place"></div>
+              <div class="dots-place">
+                
+              </div>
             </div>
           </div>
-        </div>      
+        </div>
       </div>
     </div>
   </div>

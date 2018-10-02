@@ -17,7 +17,7 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" style="background-color: #fff;">
                 <div class="col-12 col-lg-10">
                     <div class="row align-items-center">
                         <div class="col-9 col-sm-4 col-md-3 col-lg-2">
@@ -87,7 +87,7 @@
                                         <div class="col-12 col-lg-7 offset-lg-1">
                                             <div class="main-carousel__slide__title-wrapper d-inline-block">
                                                 <h2> Творча школа Павла Табакова</h2>
-                                                <div class="description-wrapper mt-3 d-flex flex-column flex-lg-row justify-content-between w-100">
+                                                <div class="description-wrapper mt-3 d-flex flex-column-reverse flex-lg-column-reverse justify-content-between w-100">
                                                     <div class="btn-mdf">
                                                         <a class="btn btn_slide-more  violet" href="#">Записатись на заняття</a>
                                                     </div>
@@ -109,8 +109,8 @@
                                     <div class="row">
                                         <div class="col-12 col-lg-7 offset-lg-1">
                                             <div class="main-carousel__slide__title-wrapper d-inline-block">
-                                                <h2>Total art school</h2>
-                                                <div class="description-wrapper mt-3 d-flex flex-column flex-lg-row justify-content-between w-100">
+                                                <h2> Творча школа Павла Табакова</h2>
+                                                <div class="description-wrapper mt-3 d-flex flex-column-reverse flex-lg-column-reverse justify-content-between w-100">
                                                     <div class="btn-mdf">
                                                         <a class="btn btn_slide-more  violet" href="#">Записатись на заняття</a>
                                                     </div>
@@ -132,8 +132,8 @@
                                     <div class="row">
                                         <div class="col-12 col-lg-7 offset-lg-1">
                                             <div class="main-carousel__slide__title-wrapper d-inline-block">
-                                                <h2>Total art school</h2>
-                                                <div class="description-wrapper mt-3 d-flex flex-column flex-lg-row justify-content-between w-100">
+                                                <h2> Творча школа Павла Табакова</h2>
+                                                <div class="description-wrapper mt-3 d-flex flex-column-reverse flex-lg-column-reverse justify-content-between w-100">
                                                     <div class="btn-mdf">
                                                         <a class="btn btn_slide-more  violet" href="#">Записатись на заняття</a>
                                                     </div>
@@ -155,8 +155,8 @@
                                     <div class="row">
                                         <div class="col-12 col-lg-7 offset-lg-1">
                                             <div class="main-carousel__slide__title-wrapper d-inline-block">
-                                                <h2>Total art school</h2>
-                                                <div class="description-wrapper mt-3 d-flex flex-column flex-lg-row justify-content-between w-100">
+                                                <h2> Творча школа Павла Табакова</h2>
+                                                <div class="description-wrapper mt-3 d-flex flex-column-reverse flex-lg-column-reverse justify-content-between w-100">
                                                     <div class="btn-mdf">
                                                         <a class="btn btn_slide-more  violet" href="#">Записатись на заняття</a>
                                                     </div>
@@ -176,7 +176,9 @@
                     <div class="dots position-absolute w-100">
                         <div class="row">
                             <div class="col-12 col-lg-6 text-center">
-                                <div class="dots-place"></div>
+                                <div class="dots-place">
+
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -184,7 +186,7 @@
             </div>
         </div>
     </section>
-    <section class="content-block ">
+    <section class="content-block about-section ">
         <div class="container main-container">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-10">
@@ -216,7 +218,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-12 col-lg-6 about-img d-none d-lg-block" style="background-image: url(assets/img/сhildren.jpg);">
+                        <div class="col-12 col-md-12 col-lg-6 about-img d-block d-lg-block" style="background-image: url(assets/img/сhildren.jpg);">
                         </div>
                     </div>
                 </div>
@@ -567,7 +569,7 @@
                             </div>
                         </div>
                         <div class="col-12 text-center feed-carousel-ctrl">
-                            <div class="dots-place dots-place_white"></div>
+                            <div class="dots-place dots-place_white d-block d-lg-none"></div>
                         </div>
                     </div>
                 </div>
@@ -757,20 +759,21 @@
                 autoplay: false,
                 autoplaySpeed: 4000,
                 infinite: true,
-                arrows: true,
+                dots: false,
+                arrows: false,
                 prevArrow: "<a href=\"#\" class=\"slider-arr slider-arr_prev\"></a>",
                 nextArrow: "<a href=\"#\" class=\"slider-arr slider-arr_next\"></a>",
                 responsive: [{
                         breakpoint: 992,
                         settings: {
-                            dots: false,
+                            dots: true,
                             slidesToShow: 2
                         }
                     },
                     {
                         breakpoint: 768,
                         settings: {
-                            dots: false,
+                            dots: true,
                             slidesToShow: 1
                         }
                     }
@@ -786,14 +789,14 @@
                 autoplaySpeed: 4000,
                 infinite: true,
                 arrows: true,
-                dots: true,
+                dots: false,
                 appendDots: $('.feed-carousel-ctrl .dots-place'),
                 prevArrow: "<a href=\"#\" class=\"slider-arr slider-arr_prev slider-arr_f \"></a>",
                 nextArrow: "<a href=\"#\" class=\"slider-arr slider-arr_next slider-arr_f\"></a>",
                 responsive: [{
                     breakpoint: 768,
                     settings: {
-                        dots: false,
+                        dots: true,
                         slidesToShow: 1
                     }
                 }]

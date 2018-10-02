@@ -1,7 +1,7 @@
 /* ---------------------------------------- Header ---------------------------------------- */
 
 .header {
-  background-color: rgba($color-3, .8);
+
   position: absolute;
   z-index: 9999;
   width: 100%;
@@ -28,7 +28,7 @@
         display: flex;
         font-family: $font-4;
         font-size: 1.2rem;
-        padding: 0 15px;
+        padding: 0 8px;
         height: 100%;
         color: currentColor;
         text-decoration: none;
@@ -123,7 +123,7 @@
         margin-right: 2rem;
         a {
           font-size: 1rem;
-          padding: 0 10px;
+          padding: 0 2px;
         }
       }
     }
@@ -134,10 +134,15 @@
 
 /* ------------------------------------- Main carousel ------------------------------------ */
 
+
+
+
 .main-carousel {
+  padding-top: 90px;
   .container {
     padding-left: 0;
     padding-right: 0;
+    
   }
   .bg-color {
     background-color: $color-2;
@@ -162,7 +167,7 @@
         font-family: $font-3;
         font-size: 55px;
         margin-bottom: 7.5rem;
-        color: #212529;
+        color: #fff;
       }
     }
   }
@@ -180,7 +185,7 @@
   .main-carousel {
     &__slide {
       .slide-outer {
-        padding-top: 12rem;
+        padding-top: 60%;
         padding-bottom: 5rem;
       }
       .slide-inner {
@@ -631,21 +636,7 @@
   }
 }
 
-.feed-carousel-ctrl,
-.gallery-carousel-ctrl {
-  position: relative;
-  z-index: 100;
-  .dots-place_white {
-    top: -2rem;
-    left: 50%;
-    transform: translate(-50%, 0);
-    position: absolute;
-    z-index: 100;
-    .slick-dots {
-      left: 0;
-    }
-  }
-}
+
 
 @media screen and (max-width: 992px) {
   .feed-carousel {
@@ -804,7 +795,7 @@
   &__slide {
     .slide-inner {
       .main-carousel__slide__title-wrapper {
-        margin-bottom: 9rem;
+        margin-bottom: 2rem;
         width: 100%;
         display: block;
         max-width: 60%;
@@ -812,13 +803,14 @@
           display: block;
           font-family: $font-4;
           font-size: 1.6rem;
+          color: #fff;
         }
         h2 {
           display: inline-block;
           margin-bottom: 0.4rem;
           text-shadow: 0 5px 5px rgba(0, 0, 0, .22);
           font-family: OswaldBold;
-          font-size: 55px;
+          font-size: 45px;
         }
       }
     }
@@ -871,6 +863,7 @@
   align-items: center;
   flex-wrap: wrap;
   position: relative;
+  margin-top: 10px;
 }
 
 .vocal-btn {
@@ -902,6 +895,14 @@
   }
 }
 
+
+.vocal-slide{
+  position: relative;
+  padding-top: 60% !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% -50%;
+}
 @media screen and (max-width:992px) {
   .gallery-carousel {
     display: none;
@@ -1727,7 +1728,7 @@ select:focus {
 }
 
 .description-wrapper {
-  align-items: center;
+  align-items: flex-start;
 }
 
 .testimonials h2 {
@@ -1928,7 +1929,7 @@ select:focus {
     padding-bottom: 0.5rem;
     border-width: 3px;
     color: #fff;
-    background-color: $color-2;
+    background-color: #8666d5;
   }
   &:hover {
     .info-section {
@@ -1940,6 +1941,7 @@ select:focus {
         padding-bottom: 0.5rem;
         border-width: 3px;
         outline: 0;
+        border-color: #8666d5;
         cursor: pointer;
         display: inline-block;
         transition: all .3s ease-in-out;
@@ -1972,6 +1974,7 @@ select:focus {
   transition: all .3s ease-in-out;
   background-color: #8666D5;
   color: #fff;
+  margin-top: 10px;
   &:hover {
     background-color: #8666D5;
   }
@@ -2053,7 +2056,7 @@ select:focus {
       font-size: 80px;
       line-height: 4rem;
       font-family: OswaldBold;
-      opacity: .05;
+      opacity: 0.03;
       letter-spacing: 0.0rem;
       text-align: center;
     }
@@ -2708,6 +2711,33 @@ $color: transperent;
   border-radius: 20px;
 }
 
+
+
+.slick-dots li.slick-active button:before{
+  opacity: .5;
+  color: black;;
+}
+
+.slick-dots li button:before{
+  font-family: 'slick';
+  font-size: 36px;
+  line-height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+
+
 @media screen and (max-width: 1000px) {
   body {
     padding: 1em;
@@ -2773,13 +2803,12 @@ $color: transperent;
   color: #000;
   font-family: BloggerSans;
   font-size: 1rem;
-  background-color: #fff;
 }
 
 .logo-image {
   width: 100%;
   height: auto;
-  max-width: 57px;
+  max-width: 90px;
 }
 
 .header .fb {
@@ -2908,7 +2937,27 @@ $color: transperent;
   color: #000;
 }
 
+.gallery-title h2{
+  font-size:  24px;
+  font-family: OswaldLight;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background-color: #5f4d8d;
+}
+.nav-item:hover a{
+  color: #5f4d8d;
+}
+
 @media screen and (max-width:992px) {
+  .about-section{
+    padding-top: 0;
+  }
+  .gallery-title h2{
+    font-size: 16px;
+  }
+  .mobile-size{
+    padding-top: 15px;
+  }
   .concert-section {
     &__main {
       &__wrapper {
@@ -2950,7 +2999,7 @@ $color: transperent;
     transition: all .3s ease-in-out !important;
   }
   .main-carousel__slide .slide-inner .btn_slide-more {
-    display: none;
+    display: block;
   }
   .concert-section__main__wrapper__info:before {
     display: none;
@@ -3000,6 +3049,7 @@ $color: transperent;
   }
   .view {
     padding-bottom: 45px;
+    padding: 0 20px 45px 20px;
   }
   .view img {
     padding: 0;
@@ -3011,6 +3061,9 @@ $color: transperent;
   .view .mask {
     height: calc(100% - 45px);
   }
+  .view .content, .view .mask {
+    width: calc(100% - 40px);
+}
   .view:hover .title-block h2 {
     font-family: OswaldLight;
   }
@@ -3128,11 +3181,11 @@ $color: transperent;
     padding-bottom: 10px;
   }
   .content-block .social-items {
-    padding: 15px 0 0 0;
+    padding:0;
     margin-bottom: 30px;
   }
   .content-block .social-items .instagram {
-    margin-top: 15px;
+    margin-top: 0;
     padding-bottom: 10px;
     padding-left: 30px;
   }
@@ -3174,7 +3227,7 @@ $color: transperent;
     font-size: 10px;
   }
   .main-carousel__slide .slide-inner .btn_slide-more {
-    margin: 0 0 10px 0;
+    margin: 10px 0 10px 0;
   }
   .feed-carousel__slide .info-section h4 {
     font-size: 1.05rem;
@@ -3277,7 +3330,38 @@ $color: transperent;
   .tabs a {
     font-size: 13px;
   }
+
+  .main-carousel{
+    padding-top: 0;
+  }
+  .main-carousel__slide .slide-inner .main-carousel__slide__title-wrapper h2{
+    font-size: 2rem;
+  }
+  .main-carousel__slide .slide-inner .main-carousel__slide__title-wrapper{
+    max-width: 100%;
+  }
+
+  .header{
+    background-color: transparent;
+  }
+  .title-block{
+    width: calc(100% - 40px);
+  }
+  
+  .content-block .information-items a {
+    margin-top: 0;
+  }
+  .about-img{
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    border-radius: 0px;
+  }
+  .vocal-slide{
+    padding-top: 22%!important;
+  }
 }
+
 
 /* -------------------------------------------------------------------------------------------------- */
 
