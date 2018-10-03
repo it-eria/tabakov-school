@@ -98,7 +98,7 @@ a {
     bottom: 0;
     left: 0;
     text-align: center;
-    background-color:transparent ;
+    background-color: transparent;
     li {
       width: 8px;
       height: 8px;
@@ -107,6 +107,7 @@ a {
         height: 8px;
         border-radius: 50%;
         background-color: #2a3037;
+        padding: 4px;
         &:before {
           display: none;
         }
@@ -127,7 +128,6 @@ a {
         button {
           opacity: .25;
           color: black;
-         
         }
       }
     }
@@ -221,7 +221,6 @@ p {
     color: #000000;
     font-family: $font-1;
     font-size: 16px;
-   
     transition: all .3s ease-in-out;
     &:hover {
       background-color: $color-2;
@@ -721,5 +720,3 @@ p {
     }
   }
 }
-
-

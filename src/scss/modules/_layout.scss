@@ -1,7 +1,6 @@
 /* ---------------------------------------- Header ---------------------------------------- */
 
 .header {
-
   position: absolute;
   z-index: 9999;
   width: 100%;
@@ -134,15 +133,11 @@
 
 /* ------------------------------------- Main carousel ------------------------------------ */
 
-
-
-
 .main-carousel {
   padding-top: 90px;
   .container {
     padding-left: 0;
     padding-right: 0;
-    
   }
   .bg-color {
     background-color: $color-2;
@@ -636,8 +631,6 @@
   }
 }
 
-
-
 @media screen and (max-width: 992px) {
   .feed-carousel {
     &__slide {
@@ -895,14 +888,14 @@
   }
 }
 
-
-.vocal-slide{
+.vocal-slide {
   position: relative;
   padding-top: 60% !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% -50%;
 }
+
 @media screen and (max-width:992px) {
   .gallery-carousel {
     display: none;
@@ -1209,7 +1202,7 @@
 .view .mask,
 .view .content {
   width: calc(100% - 20px);
-  height: 94%;
+  height: calc(100% - 20px);
   position: absolute;
   overflow: hidden;
   top: 0;
@@ -2711,14 +2704,13 @@ $color: transperent;
   border-radius: 20px;
 }
 
-
-
-.slick-dots li.slick-active button:before{
+.slick-dots li.slick-active button:before {
   opacity: .5;
-  color: black;;
+  color: black;
+  ;
 }
 
-.slick-dots li button:before{
+.slick-dots li button:before {
   font-family: 'slick';
   font-size: 36px;
   line-height: 0;
@@ -2733,10 +2725,6 @@ $color: transperent;
   color: black;
   -webkit-font-smoothing: antialiased;
 }
-
-
-
-
 
 @media screen and (max-width: 1000px) {
   body {
@@ -2937,25 +2925,28 @@ $color: transperent;
   color: #000;
 }
 
-.gallery-title h2{
-  font-size:  24px;
+.gallery-title h2 {
+  font-size: 24px;
   font-family: OswaldLight;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
   background-color: #5f4d8d;
 }
-.nav-item:hover a{
+
+.nav-item:hover a {
   color: #5f4d8d;
 }
 
 @media screen and (max-width:992px) {
-  .about-section{
+  .about-section {
     padding-top: 0;
   }
-  .gallery-title h2{
+  .gallery-title h2 {
     font-size: 16px;
   }
-  .mobile-size{
+  .mobile-size {
     padding-top: 15px;
   }
   .concert-section {
@@ -3061,9 +3052,10 @@ $color: transperent;
   .view .mask {
     height: calc(100% - 45px);
   }
-  .view .content, .view .mask {
+  .view .content,
+  .view .mask {
     width: calc(100% - 40px);
-}
+  }
   .view:hover .title-block h2 {
     font-family: OswaldLight;
   }
@@ -3181,7 +3173,7 @@ $color: transperent;
     padding-bottom: 10px;
   }
   .content-block .social-items {
-    padding:0;
+    padding: 0;
     margin-bottom: 30px;
   }
   .content-block .social-items .instagram {
@@ -3330,38 +3322,34 @@ $color: transperent;
   .tabs a {
     font-size: 13px;
   }
-
-  .main-carousel{
+  .main-carousel {
     padding-top: 0;
   }
-  .main-carousel__slide .slide-inner .main-carousel__slide__title-wrapper h2{
+  .main-carousel__slide .slide-inner .main-carousel__slide__title-wrapper h2 {
     font-size: 2rem;
   }
-  .main-carousel__slide .slide-inner .main-carousel__slide__title-wrapper{
+  .main-carousel__slide .slide-inner .main-carousel__slide__title-wrapper {
     max-width: 100%;
   }
-
-  .header{
+  .header {
     background-color: transparent;
   }
-  .title-block{
+  .title-block {
     width: calc(100% - 40px);
   }
-  
   .content-block .information-items a {
     margin-top: 0;
   }
-  .about-img{
+  .about-img {
     width: 100%;
     min-height: 400px;
     height: auto;
     border-radius: 0px;
   }
-  .vocal-slide{
-    padding-top: 22%!important;
+  .vocal-slide {
+    padding-top: 22% !important;
   }
 }
-
 
 /* -------------------------------------------------------------------------------------------------- */
 
